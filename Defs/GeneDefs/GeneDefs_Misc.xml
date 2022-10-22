@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>GreatMemory</defName>
+    <label>Great Memory</label>
+    <labelShortAdj>Great Memory</labelShortAdj>
+    <description>Carriers of this gene have excellent memories.</description>
+    <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
+    <displayOrderInCategory>60</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>GreatMemory</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+</Defs>
