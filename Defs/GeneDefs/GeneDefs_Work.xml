@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneCategoryDef>
+    <defName>Works</defName>
+    <label>Works</label>
+    <displayPriorityInXenotype>458</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneDef Name="GeneWorksBase" Abstract="True">
+    <displayCategory>Works</displayCategory>
+    <exclusionTags>
+      <li>Works</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneWorksBase">
+    <defName>WorksSlothful</defName>
+    <label>Slothful</label>
+    <labelShortAdj>Slothful</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Industriousness</def>
+        <degree>-2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>5</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneWorksBase">
+    <defName>WorksLazy</defName>
+    <label>Lazy</label>
+    <labelShortAdj>Lazy</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Industriousness</def>
+        <degree>-1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneWorksBase">
+    <defName>WorksHardWorker</defName>
+    <label>Hard Worker</label>
+    <labelShortAdj>Hard Worker</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Optimist</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Industriousness</def>
+        <degree>1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneWorksBase">
+    <defName>WorksIndustrious</defName>
+    <label>Industrious</label>
+    <labelShortAdj>Industrious</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Industriousness</def>
+        <degree>2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-4</biostatMet>
+  </GeneDef>
+</Defs>
