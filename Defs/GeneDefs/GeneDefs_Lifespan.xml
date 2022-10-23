@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneCategoryDef>
+    <defName>Lifespan</defName>
+    <label>Lifespan</label>
+    <displayPriorityInXenotype>448</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneDef Name="GeneLifespanBase" Abstract="True">
+    <displayCategory>Lifespan</displayCategory>
+    <exclusionTags>
+      <li>Lifespan</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLifespanBase">
+    <defName>LifespanVeryShort</defName>
+    <label>Very short lifespan</label>
+    <labelShortAdj>Very short lifespan</labelShortAdj>
+    <description>Carrier of this gene has very short lifespan.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(3, 15)</li>
+        <li>(4, 10)</li>
+        <li>(13, 5)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <statFactors>
+      <LifespanFactor>0.25</LifespanFactor>
+    </statFactors>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLifespanBase">
+    <defName>LifespanShort</defName>
+    <label>Short lifespan</label>
+    <labelShortAdj>Short lifespan</labelShortAdj>
+    <description>Carrier of this gene has short lifespan.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(3, 8)</li>
+        <li>(4, 4)</li>
+        <li>(13, 2)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <statFactors>
+      <LifespanFactor>0.5</LifespanFactor>
+    </statFactors>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLifespanBase">
+    <defName>LifespanLong</defName>
+    <label>Long lifespan</label>
+    <labelShortAdj>Long lifespan</labelShortAdj>
+    <description>Carrier of this gene has long lifespan.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(3, 0.5)</li>
+        <li>(4, 0.75)</li>
+        <li>(13, 0.8)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <statFactors>
+      <LifespanFactor>1.5</LifespanFactor>
+    </statFactors>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLifespanBase">
+    <defName>LifespanVeryLong</defName>
+    <label>Very long lifespan</label>
+    <labelShortAdj>Very long lifespan</labelShortAdj>
+    <description>Carrier of this gene has very long lifespan.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(3, 0.25)</li>
+        <li>(4, 0.5)</li>
+        <li>(13, 0.6)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <statFactors>
+      <LifespanFactor>2</LifespanFactor>
+    </statFactors>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+</Defs>
