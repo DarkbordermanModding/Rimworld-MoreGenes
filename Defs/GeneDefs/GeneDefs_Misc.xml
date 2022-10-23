@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!-- Nimble -->
+  <GeneDef>
+    <defName>Nimble</defName>
+    <label>Nimble</label>
+    <labelShortAdj>Nimble</labelShortAdj>
+    <description>Carriers of this gene is nimble than others.</description>
+    <iconPath>UI/Icons/Genes/Gene_QuickMovespeed</iconPath>
+    <displayOrderInCategory>2</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Nimble</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
   <!-- Great memory -->
   <GeneDef>
     <defName>GreatMemory</defName>
