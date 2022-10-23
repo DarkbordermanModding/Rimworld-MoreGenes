@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!-- Great memory -->
   <GeneDef>
     <defName>GreatMemory</defName>
     <label>Great Memory</label>
@@ -14,5 +15,22 @@
     </forcedTraits>
     <biostatCpx>1</biostatCpx>
     <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <!-- Cannibal -->
+  <GeneDef>
+    <defName>Cannibal</defName>
+    <label>Cannibal</label>
+    <labelShortAdj>Cannibal</labelShortAdj>
+    <description>Carriers of this gene have instinct to human meat.</description>
+    <iconPath>UI/Icons/Genes/Gene_Bloodfeeder</iconPath>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Cannibal</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
   </GeneDef>
 </Defs>
