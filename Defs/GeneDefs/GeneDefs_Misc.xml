@@ -51,4 +51,41 @@
     <biostatCpx>1</biostatCpx>
     <biostatMet>1</biostatMet>
   </GeneDef>
+
+  <!-- max nutrition -->
+  <GeneDef Name="GeneMaxNutritionBase" Abstract="True">
+    <displayCategory>Miscellaneous</displayCategory>
+    <exclusionTags>
+      <li>MaxNutrition</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMaxNutritionBase">
+    <defName>SmallStomach</defName>
+    <label>Small stomach</label>
+    <labelShortAdj>Small stomach</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_StrongStomach</iconPath>
+    <displayOrderInCategory>3</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>3</biostatMet>
+    <statFactors>
+      <MaxNutrition>0.75</MaxNutrition>
+    </statFactors>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMaxNutritionBase">
+    <defName>LargeStomach</defName>
+    <label>Large stomach</label>
+    <labelShortAdj>Large stomach</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_StrongStomach</iconPath>
+    <displayOrderInCategory>4</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <statFactors>
+      <MaxNutrition>1.25</MaxNutrition>
+    </statFactors>
+  </GeneDef>
+
 </Defs>
