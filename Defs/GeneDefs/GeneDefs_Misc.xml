@@ -33,4 +33,22 @@
     <biostatCpx>1</biostatCpx>
     <biostatMet>0</biostatMet>
   </GeneDef>
+
+  <!-- Bloodlust -->
+  <GeneDef>
+    <defName>Aggression_Bloodlust</defName>
+    <label>Bloodlust</label>
+    <labelShortAdj>Bloodlust</labelShortAdj>
+    <description>Carriers of this gene have instinct to kill others.</description>
+    <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
+    <displayCategory>Violence</displayCategory>
+    <displayOrderInCategory>90</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Bloodlust</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
 </Defs>
