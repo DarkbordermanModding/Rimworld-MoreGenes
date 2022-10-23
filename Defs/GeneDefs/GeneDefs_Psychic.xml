@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef ParentName="GenePsychicAbilityBase">
+    <defName>NeuralSensitivity</defName>
+    <label>Neural Sensitivity</label>
+    <labelShortAdj>Neural Sensitivity</labelShortAdj>
+    <description>Supresses traits that related to psychics</description>
+    <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
+    <displayOrderInCategory>15</displayOrderInCategory>
+    <suppressedTraits>
+      <li>
+        <def>PsychicSensitivity</def>
+        <degree>-2</degree>
+      </li>
+      <li>
+        <def>PsychicSensitivity</def>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <def>PsychicSensitivity</def>
+        <degree>1</degree>
+      </li>
+      <li>
+        <def>PsychicSensitivity</def>
+        <degree>2</degree>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+</Defs>
