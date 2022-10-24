@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneCategoryDef>
+    <defName>BodySize</defName>
+    <label>Body size</label>
+    <displayPriorityInXenotype>461</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneDef Name="GeneBodySizeBase" Abstract="True">
+    <displayCategory>BodySize</displayCategory>
+    <exclusionTags>
+      <li>BodySize</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBodySizeBase">
+    <defName>SmallBodySize</defName>
+    <label>Small body</label>
+    <labelShortAdj>Small body</labelShortAdj>
+    <description>Carriers of this gene has smaller body size than others.</description>
+    <iconPath>UI/Icons/Genes/Gene_BodyHulk</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBodySizeBase">
+    <defName>LargeBodySize</defName>
+    <label>Large body</label>
+    <labelShortAdj>Large body</labelShortAdj>
+    <description>Carriers of this gene has larger body size than others.</description>
+    <iconPath>UI/Icons/Genes/Gene_BodyHulk</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+</Defs>

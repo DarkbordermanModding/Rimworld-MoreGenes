@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--
+  <GeneDef>
+    <displayCategory>Miscellaneous</displayCategory>
+    <defName>PigAnimalType</defName>
+    <label>Pork</label>
+    <labelShortAdj>Pork</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_StrongStomach</iconPath>
+    <displayOrderInCategory>4</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <geneClass>MoreGenes.Gene_Pork</geneClass>
+  </GeneDef>
+-->
+</Defs>
