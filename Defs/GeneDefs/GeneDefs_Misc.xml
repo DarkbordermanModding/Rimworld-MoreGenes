@@ -17,6 +17,23 @@
     <biostatMet>-1</biostatMet>
   </GeneDef>
 
+  <!-- Masochist -->
+  <GeneDef>
+    <defName>Masochist</defName>
+    <label>Masochist</label>
+    <labelShortAdj>Masochist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
+    <displayOrderInCategory>3</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Masochist</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
   <!-- Great memory -->
   <GeneDef>
     <defName>GreatMemory</defName>
