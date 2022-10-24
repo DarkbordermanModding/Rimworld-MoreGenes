@@ -19,3 +19,27 @@ public static class Pawn_BodySize
         }
     }
 }
+
+[HarmonyPatch(typeof(Pawn), "RaceProps", MethodType.Getter)]
+public static class Pawn_RaceProps
+{
+    public static void Postfix(ref RaceProperties __result, Pawn __instance)
+    {
+        if (__instance != null && __instance.genes != null)
+        {
+            ThingDef defaultMeatDef = DefDatabase<ThingDef>.GetNamed("Meat_Human");
+            ThingDef defaultLeatherDef = DefDatabase<ThingDef>.GetNamed("Leather_Human");
+
+            if (__instance.genes.HasGene(DefDatabase<GeneDef>.GetNamed("PigAnimalType")))
+            {
+                __result.meatDef = DefDatabase<ThingDef>.GetNamed("Meat_Pig");
+                __result.leatherDef = DefDatabase<ThingDef>.GetNamed("Leather_Pig");
+            }
+            else
+            {
+                __result.meatDef = defaultMeatDef;
+                __result.leatherDef = defaultLeatherDef;
+            }
+        }
+    }
+}
