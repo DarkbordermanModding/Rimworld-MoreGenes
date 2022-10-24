@@ -13,6 +13,16 @@ namespace MoreGenes
         static Main()
         {
             new Harmony("Mlie.VariedBodySizes").PatchAll(Assembly.GetExecutingAssembly());
+
+            GeneDef x = new GeneDef();
+
+            if (false)
+            {
+                // Use code to dynamically add/remove GeneDef
+                x.displayCategory = DefDatabase<GeneCategoryDef>.GetNamed("Hidden");
+                x.defName = "Pork";
+                DefDatabase<GeneDef>.Add(x);
+            }
         }
     }
 }

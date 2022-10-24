@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <!--
+  <GeneCategoryDef>
+    <defName>Hidden</defName>
+    <label>Hidden</label>
+    <displayPriorityInXenotype>1010</displayPriorityInXenotype>
+  </GeneCategoryDef>
   <GeneDef>
-    <displayCategory>Miscellaneous</displayCategory>
     <defName>PigAnimalType</defName>
     <label>Pork</label>
     <labelShortAdj>Pork</labelShortAdj>
