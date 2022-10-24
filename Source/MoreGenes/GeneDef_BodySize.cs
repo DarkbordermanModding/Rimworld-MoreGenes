@@ -16,9 +16,13 @@ public static class Pawn_BodySize
             {
                 __result = (float)(__result * 0.75);
             }
-        }
+        } 
+
     }
 }
+
+
+/*
 
 [HarmonyPatch(typeof(Pawn), "RaceProps", MethodType.Getter)]
 public static class Pawn_RaceProps
@@ -27,9 +31,10 @@ public static class Pawn_RaceProps
     {
         if (__instance != null && __instance.genes != null)
         {
+            //if(__instance.kindDef.defName)
             ThingDef defaultMeatDef = DefDatabase<ThingDef>.GetNamed("Meat_Human");
             ThingDef defaultLeatherDef = DefDatabase<ThingDef>.GetNamed("Leather_Human");
-
+            
             if (__instance.genes.HasGene(DefDatabase<GeneDef>.GetNamed("PigAnimalType")))
             {
                 __result.meatDef = DefDatabase<ThingDef>.GetNamed("Meat_Pig");
@@ -40,6 +45,9 @@ public static class Pawn_RaceProps
                 __result.meatDef = defaultMeatDef;
                 __result.leatherDef = defaultLeatherDef;
             }
+            
         }
     }
 }
+
+*/
