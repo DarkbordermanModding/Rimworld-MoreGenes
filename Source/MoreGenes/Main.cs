@@ -12,7 +12,7 @@ namespace MoreGenes
     {
         static Main()
         {
-            new Harmony("Mlie.VariedBodySizes").PatchAll(Assembly.GetExecutingAssembly());
+            new Harmony("Darkborderman.MoreGenes").PatchAll(Assembly.GetExecutingAssembly());
 
             GeneDef x = new GeneDef();
 
