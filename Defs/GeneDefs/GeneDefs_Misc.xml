@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!-- Night Owl -->
+  <GeneDef>
+    <defName>NightOwl</defName>
+    <label>Night owl</label>
+    <labelShortAdj>Night owl</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_GrayEyes</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>NightOwl</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+  <!-- Undergrounder -->
+  <GeneDef>
+    <defName>Undergrounder</defName>
+    <label>Undergrounder</label>
+    <labelShortAdj>Undergrounder</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Skills/Mining/Strong</iconPath>
+    <displayOrderInCategory>1</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Undergrounder</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
   <!-- Nimble -->
   <GeneDef>
     <defName>Nimble</defName>
