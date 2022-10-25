@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneCategoryDef>
+    <defName>Relationship</defName>
+    <label>Relationship</label>
+    <displayPriorityInXenotype>447</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Kind and Abrasive blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>VerbalConflict</defName>
+    <label>VerbalConflict</label>
+    <displayPriorityInXenotype>1010</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Psychopath to other traits blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>Psychopath</defName>
+    <label>Psychopath</label>
+    <displayPriorityInXenotype>1020</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneDef Name="GeneRelationship" Abstract="True">
+    <displayCategory>Relationship</displayCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneRelationship">
+    <defName>Psychopath</defName>
+    <label>Psychopath</label>
+    <labelShortAdj>Psychopath</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>Psychopath</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>Psychopath</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneRelationship">
+    <defName>Abrasive</defName>
+    <label>Abrasive</label>
+    <labelShortAdj>Abrasive</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <exclusionTags>
+      <li>VerbalConflict</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>Abrasive</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+</Defs>

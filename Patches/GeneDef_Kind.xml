@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/GeneDef[defName="KindInstinct"]/exclusionTags/li[1]</xpath>
+    <value>
+      <li>Psychopath</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/GeneDef[defName="KindInstinct"]/exclusionTags/li[1]</xpath>
+    <value>
+      <li>VerbalConflict</li>
+    </value>
+  </Operation>
+</Patch>
