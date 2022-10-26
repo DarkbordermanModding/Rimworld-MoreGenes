@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Brawler(physics) and Accurancy trait blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>WeaponPreference</defName>
+    <label>WeaponPreference</label>
+    <displayPriorityInXenotype>1040</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneDef>
+    <defName>Brawler</defName>
+    <label>Brawler</label>
+    <labelShortAdj>Brawler</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+    <displayCategory>Pain</displayCategory>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>WeaponPreference</li>
+      <li>BodyStrength</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>Brawler</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+
+</Defs>
