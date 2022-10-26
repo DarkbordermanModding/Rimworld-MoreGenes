@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+  <!-- Add category to block selecting  -->
   <Operation Class="PatchOperationInsert">
     <xpath>Defs/GeneDef[defName="KindInstinct"]/exclusionTags/li[1]</xpath>
     <value>
