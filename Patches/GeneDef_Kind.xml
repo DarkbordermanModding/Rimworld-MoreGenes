@@ -12,4 +12,13 @@
       <li>VerbalConflict</li>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GeneDef[defName="Pain_Extra"]</xpath>
+    <value>
+      <exclusionTags>
+        <li>BodyStrength</li>
+        <li>Pain</li>
+      </exclusionTags>
+    </value>
+  </Operation>
 </Patch>
