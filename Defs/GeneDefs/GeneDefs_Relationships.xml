@@ -13,11 +13,25 @@
     <displayPriorityInXenotype>1010</displayPriorityInXenotype>
   </GeneCategoryDef>
 
-  <!-- Psychopath to other traits blocker category(hidden) -->
+  <!-- Psychopath to kind blocker category(hidden) -->
   <GeneCategoryDef>
     <defName>Psychopath</defName>
     <label>Psychopath</label>
     <displayPriorityInXenotype>1020</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Psychopath to Misandrist blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>DislikesMen</defName>
+    <label>DislikesMen</label>
+    <displayPriorityInXenotype>1100</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Psychopath to Misogynist blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>DislikesWomen</defName>
+    <label>DislikesWomen</label>
+    <displayPriorityInXenotype>1110</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneDef Name="GeneRelationship" Abstract="True">
@@ -33,6 +47,8 @@
     <displayOrderInCategory>10</displayOrderInCategory>
     <exclusionTags>
       <li>Psychopath</li>
+      <li>DislikesMen</li>
+      <li>DislikesWomen</li>
     </exclusionTags>
     <forcedTraits>
       <li>
@@ -58,6 +74,76 @@
         <def>Abrasive</def>
       </li>
     </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneRelationship">
+    <defName>AnnoyingVoice</defName>
+    <label>Annoying voice</label>
+    <labelShortAdj>Annoying voice</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>AnnoyingVoice</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneRelationship">
+    <defName>CreepyBreathing</defName>
+    <label>Creepy breathing</label>
+    <labelShortAdj>Creepy breathing</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>CreepyBreathing</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneRelationship">
+    <defName>DislikesMen</defName>
+    <label>Misandrist</label>
+    <labelShortAdj>Misandrist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>DislikesMen</def>
+      </li>
+    </forcedTraits>
+    <exclusionTags>
+      <li>DislikesMen</li>
+    </exclusionTags>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneRelationship">
+    <defName>DislikesWomen</defName>
+    <label>Misogynist</label>
+    <labelShortAdj>Misogynist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
+    <displayOrderInCategory>60</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>DislikesWomen</def>
+      </li>
+    </forcedTraits>
+    <exclusionTags>
+      <li>DislikesWomen</li>
+    </exclusionTags>
     <biostatCpx>1</biostatCpx>
     <biostatMet>1</biostatMet>
   </GeneDef>
