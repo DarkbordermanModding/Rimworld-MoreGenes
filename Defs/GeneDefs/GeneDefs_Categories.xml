@@ -2,7 +2,7 @@
 <Defs>
   <GeneCategoryDef>
     <defName>Relationship</defName>
-    <label>Relationship</label>
+    <label>Relationship(More gene)</label>
     <displayPriorityInXenotype>-1000</displayPriorityInXenotype>
   </GeneCategoryDef>
 
@@ -32,5 +32,12 @@
     <defName>DislikesWomen</defName>
     <label>DislikesWomen</label>
     <displayPriorityInXenotype>-1040</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Wimp and Brawler blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>BodyStrength</defName>
+    <label>BodyStrength</label>
+    <displayPriorityInXenotype>-1050</displayPriorityInXenotype>
   </GeneCategoryDef>
 </Defs>
