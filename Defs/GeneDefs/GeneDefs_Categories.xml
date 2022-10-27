@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneCategoryDef>
+    <defName>Relationship</defName>
+    <label>Relationship</label>
+    <displayPriorityInXenotype>-1000</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Kind and Abrasive blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>VerbalConflict</defName>
+    <label>VerbalConflict</label>
+    <displayPriorityInXenotype>-1010</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Psychopath to kind blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>Psychopath</defName>
+    <label>Psychopath</label>
+    <displayPriorityInXenotype>-1020</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Psychopath to Misandrist blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>DislikesMen</defName>
+    <label>DislikesMen</label>
+    <displayPriorityInXenotype>-1030</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Psychopath to Misogynist blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>DislikesWomen</defName>
+    <label>DislikesWomen</label>
+    <displayPriorityInXenotype>-1040</displayPriorityInXenotype>
+  </GeneCategoryDef>
+</Defs>
