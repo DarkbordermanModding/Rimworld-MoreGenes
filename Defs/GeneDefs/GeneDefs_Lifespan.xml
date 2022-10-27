@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <GeneCategoryDef>
-    <defName>Lifespan</defName>
-    <label>Lifespan</label>
-    <displayPriorityInXenotype>448</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
   <GeneDef Name="GeneLifespanBase" Abstract="True">
     <displayCategory>Lifespan</displayCategory>
     <exclusionTags>

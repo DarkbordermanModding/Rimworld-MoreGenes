@@ -40,4 +40,28 @@
     <label>BodyStrength</label>
     <displayPriorityInXenotype>-1050</displayPriorityInXenotype>
   </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>BodySize</defName>
+    <label>Body size</label>
+    <displayPriorityInXenotype>-1060</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>BodyModification</defName>
+    <label>Body Modification</label>
+    <displayPriorityInXenotype>-1070</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Lifespan</defName>
+    <label>Lifespan</label>
+    <displayPriorityInXenotype>-1080</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Mental</defName>
+    <label>Mental</label>
+    <displayPriorityInXenotype>-1090</displayPriorityInXenotype>
+  </GeneCategoryDef>
 </Defs>

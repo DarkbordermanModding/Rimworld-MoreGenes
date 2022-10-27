@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <GeneCategoryDef>
-    <defName>BodyModification</defName>
-    <label>Body Modification</label>
-    <displayPriorityInXenotype>449</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
   <GeneDef Name="GeneBodyModificationBase" Abstract="True">
     <displayCategory>BodyModification</displayCategory>
     <exclusionTags>

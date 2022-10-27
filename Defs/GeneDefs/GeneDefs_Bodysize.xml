@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <GeneCategoryDef>
-    <defName>BodySize</defName>
-    <label>Body size</label>
-    <displayPriorityInXenotype>461</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
   <GeneDef Name="GeneBodySizeBase" Abstract="True">
     <displayCategory>BodySize</displayCategory>
     <exclusionTags>
