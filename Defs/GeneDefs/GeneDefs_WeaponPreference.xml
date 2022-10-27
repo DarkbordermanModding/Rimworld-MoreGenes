@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <!-- Brawler(physics) and Accurancy trait blocker category(hidden) -->
-  <GeneCategoryDef>
-    <defName>WeaponPreference</defName>
-    <label>WeaponPreference</label>
-    <displayPriorityInXenotype>1040</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
   <GeneDef>
     <defName>Brawler</defName>
     <label>Brawler</label>

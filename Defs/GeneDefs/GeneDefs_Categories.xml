@@ -64,4 +64,17 @@
     <label>Mental</label>
     <displayPriorityInXenotype>-1090</displayPriorityInXenotype>
   </GeneCategoryDef>
+
+  <!-- Brawler(physics) and Accurancy trait blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>WeaponPreference</defName>
+    <label>WeaponPreference</label>
+    <displayPriorityInXenotype>-1100</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Works</defName>
+    <label>Works</label>
+    <displayPriorityInXenotype>-1110</displayPriorityInXenotype>
+  </GeneCategoryDef>
 </Defs>

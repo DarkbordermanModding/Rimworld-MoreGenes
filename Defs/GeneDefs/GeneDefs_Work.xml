@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <GeneCategoryDef>
-    <defName>Works</defName>
-    <label>Works</label>
-    <displayPriorityInXenotype>458</displayPriorityInXenotype>
-  </GeneCategoryDef>
-
   <GeneDef Name="GeneWorksBase" Abstract="True">
     <displayCategory>Works</displayCategory>
     <exclusionTags>
