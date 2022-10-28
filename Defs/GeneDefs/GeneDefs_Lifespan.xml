@@ -14,18 +14,11 @@
     <description>Carrier of this gene has very short lifespan.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
-    <biologicalAgeTickFactorFromAgeCurve>
-      <points>
-        <li>(3, 15)</li>
-        <li>(4, 10)</li>
-        <li>(13, 5)</li>
-      </points>
-    </biologicalAgeTickFactorFromAgeCurve>
     <statFactors>
       <LifespanFactor>0.25</LifespanFactor>
     </statFactors>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>-2</biostatMet>
+    <biostatMet>6</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneLifespanBase">
@@ -35,18 +28,11 @@
     <description>Carrier of this gene has short lifespan.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
-    <biologicalAgeTickFactorFromAgeCurve>
-      <points>
-        <li>(3, 8)</li>
-        <li>(4, 4)</li>
-        <li>(13, 2)</li>
-      </points>
-    </biologicalAgeTickFactorFromAgeCurve>
     <statFactors>
       <LifespanFactor>0.5</LifespanFactor>
     </statFactors>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>-1</biostatMet>
+    <biostatMet>3</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneLifespanBase">
@@ -56,15 +42,8 @@
     <description>Carrier of this gene has long lifespan.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
-    <biologicalAgeTickFactorFromAgeCurve>
-      <points>
-        <li>(3, 0.5)</li>
-        <li>(4, 0.75)</li>
-        <li>(13, 0.8)</li>
-      </points>
-    </biologicalAgeTickFactorFromAgeCurve>
     <statFactors>
-      <LifespanFactor>1.5</LifespanFactor>
+      <LifespanFactor>1.25</LifespanFactor>
     </statFactors>
     <biostatCpx>1</biostatCpx>
     <biostatMet>-1</biostatMet>
@@ -77,15 +56,8 @@
     <description>Carrier of this gene has very long lifespan.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
-    <biologicalAgeTickFactorFromAgeCurve>
-      <points>
-        <li>(3, 0.25)</li>
-        <li>(4, 0.5)</li>
-        <li>(13, 0.6)</li>
-      </points>
-    </biologicalAgeTickFactorFromAgeCurve>
     <statFactors>
-      <LifespanFactor>2</LifespanFactor>
+      <LifespanFactor>1.5</LifespanFactor>
     </statFactors>
     <biostatCpx>1</biostatCpx>
     <biostatMet>-2</biostatMet>
