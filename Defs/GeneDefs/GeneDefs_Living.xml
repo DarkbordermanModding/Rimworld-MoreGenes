@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneLivingBase" Abstract="True">
+    <displayCategory>Living</displayCategory>
+    <exclusionTags>
+      <li>Living</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLivingBase">
+    <defName>Ascetic</defName>
+    <label>Ascetic</label>
+    <labelShortAdj>Ascetic</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Ascetic</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLivingBase">
+    <defName>Greedy</defName>
+    <label>Greedy</label>
+    <labelShortAdj>Greedy</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Greedy</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+</Defs>

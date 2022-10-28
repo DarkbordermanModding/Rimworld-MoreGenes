@@ -42,45 +42,58 @@
     <displayPriorityInXenotype>-1050</displayPriorityInXenotype>
   </GeneCategoryDef>
 
+  <!-- Gourmand and Ascetic blocker category(hidden) -->
+  <GeneCategoryDef>
+    <defName>Gourmand</defName>
+    <label>Gourmand</label>
+    <displayPriorityInXenotype>-1060</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
   <GeneCategoryDef>
     <defName>BodySize</defName>
     <label>Body size(More genes)</label>
-    <displayPriorityInXenotype>-1060</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1070</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>BodyModification</defName>
     <label>Body Modification(More genes)</label>
-    <displayPriorityInXenotype>-1070</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1080</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Lifespan</defName>
     <label>Lifespan(More genes)</label>
-    <displayPriorityInXenotype>-1080</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1090</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Mental</defName>
     <label>Mental thresholds(More genes)</label>
-    <displayPriorityInXenotype>-1090</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1100</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Relationship</defName>
     <label>Relationship(More genes)</label>
-    <displayPriorityInXenotype>-1100</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1110</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Works</defName>
     <label>Works(More genes)</label>
-    <displayPriorityInXenotype>-1110</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1120</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Living</defName>
+    <label>Living(More genes)</label>
+    <displayPriorityInXenotype>-1130</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>MoreGeneMiscellaneous</defName>
     <label>Miscellaneous(More genes)</label>
-    <displayPriorityInXenotype>-1120</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1140</displayPriorityInXenotype>
   </GeneCategoryDef>
 </Defs>
