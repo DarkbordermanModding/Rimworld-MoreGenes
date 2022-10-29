@@ -29,7 +29,7 @@
     <labelShortAdj>Greedy</labelShortAdj>
     <description>No description.</description>
     <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
-    <displayOrderInCategory>10</displayOrderInCategory>
+    <displayOrderInCategory>20</displayOrderInCategory>
     <forcedTraits>
       <li>
         <def>Greedy</def>
@@ -37,6 +37,22 @@
     </forcedTraits>
     <biostatCpx>1</biostatCpx>
     <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLivingBase">
+    <defName>Jealous</defName>
+    <label>Jealous</label>
+    <labelShortAdj>Jealous</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Jealous</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>2</biostatMet>
   </GeneDef>
 
 </Defs>

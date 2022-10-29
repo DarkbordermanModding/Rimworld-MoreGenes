@@ -137,6 +137,45 @@
     <biostatMet>-1</biostatMet>
   </GeneDef>
 
+  <!-- Pyromaniac -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Pyromaniac</defName>
+    <label>Pyromaniac</label>
+    <labelShortAdj>Pyromaniac</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_FireWeakness</iconPath>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Pyromaniac</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <!-- Psychopath -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Psychopath</defName>
+    <label>Psychopath</label>
+    <labelShortAdj>Psychopath</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>Psychopath</li>
+      <li>DislikesMen</li>
+      <li>DislikesWomen</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>Psychopath</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
   <!-- max nutrition -->
   <GeneDef Name="GeneMaxNutritionBase" Abstract="True">
     <displayCategory>Miscellaneous</displayCategory>

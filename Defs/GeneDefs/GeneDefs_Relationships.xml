@@ -5,27 +5,6 @@
   </GeneDef>
 
   <GeneDef ParentName="GeneRelationship">
-    <defName>Psychopath</defName>
-    <label>Psychopath</label>
-    <labelShortAdj>Psychopath</labelShortAdj>
-    <description>No description.</description>
-    <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
-    <displayOrderInCategory>10</displayOrderInCategory>
-    <exclusionTags>
-      <li>Psychopath</li>
-      <li>DislikesMen</li>
-      <li>DislikesWomen</li>
-    </exclusionTags>
-    <forcedTraits>
-      <li>
-        <def>Psychopath</def>
-      </li>
-    </forcedTraits>
-    <biostatCpx>1</biostatCpx>
-    <biostatMet>1</biostatMet>
-  </GeneDef>
-
-  <GeneDef ParentName="GeneRelationship">
     <defName>Abrasive</defName>
     <label>Abrasive</label>
     <labelShortAdj>Abrasive</labelShortAdj>
