@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <GeneDef Name="GeneMoreGeneMiscellaneousBase" Abstract="True">
+    <displayCategory>MoreGeneMiscellaneous</displayCategory>
+  </GeneDef>
   <!-- Tough -->
-  <GeneDef>
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
     <displayCategory>MoreGeneMiscellaneous</displayCategory>
     <defName>HealthTough</defName>
     <label>Tough</label>
@@ -17,7 +20,7 @@
     <biostatMet>-3</biostatMet>
   </GeneDef>
   <!-- Night Owl -->
-  <GeneDef>
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
     <defName>NightOwl</defName>
     <label>Night owl</label>
     <labelShortAdj>Night owl</labelShortAdj>
@@ -33,7 +36,7 @@
     <biostatMet>-1</biostatMet>
   </GeneDef>
   <!-- Undergrounder -->
-  <GeneDef>
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
     <defName>Undergrounder</defName>
     <label>Undergrounder</label>
     <labelShortAdj>Undergrounder</labelShortAdj>
@@ -49,7 +52,7 @@
     <biostatMet>-1</biostatMet>
   </GeneDef>
   <!-- Nimble -->
-  <GeneDef>
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
     <defName>Nimble</defName>
     <label>Nimble</label>
     <labelShortAdj>Nimble</labelShortAdj>
@@ -66,7 +69,7 @@
   </GeneDef>
 
   <!-- Masochist -->
-  <GeneDef>
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
     <defName>Masochist</defName>
     <label>Masochist</label>
     <labelShortAdj>Masochist</labelShortAdj>
@@ -83,7 +86,7 @@
   </GeneDef>
 
   <!-- Great memory -->
-  <GeneDef>
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
     <defName>GreatMemory</defName>
     <label>Great Memory</label>
     <labelShortAdj>Great Memory</labelShortAdj>
@@ -100,7 +103,7 @@
   </GeneDef>
 
   <!-- Cannibal -->
-  <GeneDef>
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
     <defName>Cannibal</defName>
     <label>Cannibal</label>
     <labelShortAdj>Cannibal</labelShortAdj>
@@ -117,7 +120,7 @@
   </GeneDef>
 
   <!-- Bloodlust -->
-  <GeneDef>
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
     <defName>Aggression_Bloodlust</defName>
     <label>Bloodlust</label>
     <labelShortAdj>Bloodlust</labelShortAdj>
