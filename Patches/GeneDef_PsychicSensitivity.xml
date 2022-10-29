@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- Add category to block selecting  -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GeneDef[defName="PsychicAbility_Deaf"]</xpath>
+    <value>
+      <displayCategory>Psychic</displayCategory>
+      <exclusionTags>
+        <li>PsychicSensitivity</li>
+        <li>PsychicTraits</li>
+      </exclusionTags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GeneDef[defName="PsychicAbility_Dull"]</xpath>
+    <value>
+      <displayCategory>Psychic</displayCategory>
+      <exclusionTags>
+        <li>PsychicSensitivity</li>
+        <li>PsychicTraits</li>
+      </exclusionTags>
+    </value>
+  </Operation>
+</Patch>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <GeneDef ParentName="GenePsychicAbilityBase">
+  <GeneDef>
     <defName>NeuralSensitivity</defName>
     <label>Neutral Sensitivity</label>
     <labelShortAdj>Neutral Sensitivity</labelShortAdj>
     <description>Supresses traits that related to psychics</description>
     <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
+    <displayCategory>Psychic</displayCategory>
     <displayOrderInCategory>15</displayOrderInCategory>
+    <exclusionTags>
+      <li>PsychicTraits</li>
+    </exclusionTags>
     <suppressedTraits>
       <li>
         <def>PsychicSensitivity</def>
