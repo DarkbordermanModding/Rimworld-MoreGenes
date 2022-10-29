@@ -150,6 +150,9 @@
         <def>Pyromaniac</def>
       </li>
     </forcedTraits>
+    <exclusionTags>
+      <li>Pyromaniac</li>
+    </exclusionTags>
     <biostatCpx>1</biostatCpx>
     <biostatMet>1</biostatMet>
   </GeneDef>

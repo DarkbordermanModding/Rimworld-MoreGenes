@@ -49,71 +49,78 @@
     <displayPriorityInXenotype>-1060</displayPriorityInXenotype>
   </GeneCategoryDef>
 
-  <!-- Growth rate block for young childhood -->
+  <!-- Growth rate block for young childhood(hidden) -->
   <GeneCategoryDef>
     <defName>YouthAging</defName>
     <label>YouthAging</label>
     <displayPriorityInXenotype>-1070</displayPriorityInXenotype>
   </GeneCategoryDef>
 
-  <!-- Growth rate block for adult -->
+  <!-- Growth rate block for adult(hidden) -->
   <GeneCategoryDef>
     <defName>AdultAging</defName>
     <label>AdultAging</label>
     <displayPriorityInXenotype>-1080</displayPriorityInXenotype>
   </GeneCategoryDef>
 
+  <!-- Growth rate block for pyromaniac(hidden) -->
+  <GeneCategoryDef>
+    <defName>Pyromaniac</defName>
+    <label>Pyromaniac</label>
+    <displayPriorityInXenotype>-1090</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
   <GeneCategoryDef>
     <defName>BodySize</defName>
     <label>Body size(More genes)</label>
-    <displayPriorityInXenotype>-1090</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1100</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>BodyModification</defName>
     <label>Body Modification(More genes)</label>
-    <displayPriorityInXenotype>-1100</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1110</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>GrowthRate</defName>
     <label>Growth rate(More genes)</label>
-    <displayPriorityInXenotype>-1110</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1120</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Lifespan</defName>
     <label>Lifespan(More genes)</label>
-    <displayPriorityInXenotype>-1120</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1130</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Mental</defName>
     <label>Mental thresholds(More genes)</label>
-    <displayPriorityInXenotype>-1130</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1140</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Relationship</defName>
     <label>Relationship(More genes)</label>
-    <displayPriorityInXenotype>-1140</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1150</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Works</defName>
     <label>Works(More genes)</label>
-    <displayPriorityInXenotype>-1150</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1160</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Living</defName>
     <label>Living(More genes)</label>
-    <displayPriorityInXenotype>-1160</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1170</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>MoreGeneMiscellaneous</defName>
     <label>Miscellaneous(More genes)</label>
-    <displayPriorityInXenotype>-1170</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1180</displayPriorityInXenotype>
   </GeneCategoryDef>
 </Defs>
