@@ -126,7 +126,6 @@
     <labelShortAdj>Bloodlust</labelShortAdj>
     <description>Carriers of this gene have instinct to kill others.</description>
     <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
-    <displayCategory>Violence</displayCategory>
     <displayOrderInCategory>90</displayOrderInCategory>
     <forcedTraits>
       <li>
