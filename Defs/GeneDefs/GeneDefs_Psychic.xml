@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <GeneDef>
+    <defName>PsychicallySensitive</defName>
+    <label>Psychically sensitive</label>
+    <labelShortAdj>Psychically sensitive</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_EnhancedPsychicAbility</iconPath>
+    <displayCategory>Psychic</displayCategory>
+    <displayOrderInCategory>16</displayOrderInCategory>
+    <exclusionTags>
+      <li>PsychicTraits</li>
+    </exclusionTags>
+    <suppressedTraits>
+      <li>
+        <def>PsychicSensitivity</def>
+        <degree>1</degree>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>PsychicallyHypersensitive</defName>
+    <label>Psychically hypersensitive</label>
+    <labelShortAdj>Psychically hypersensitive</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_ExtremePsychicAbility</iconPath>
+    <displayCategory>Psychic</displayCategory>
+    <displayOrderInCategory>21</displayOrderInCategory>
+    <exclusionTags>
+      <li>PsychicTraits</li>
+    </exclusionTags>
+    <suppressedTraits>
+      <li>
+        <def>PsychicSensitivity</def>
+        <degree>2</degree>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
     <defName>NeuralSensitivity</defName>
     <label>Neutral Sensitivity</label>
     <labelShortAdj>Neutral Sensitivity</labelShortAdj>

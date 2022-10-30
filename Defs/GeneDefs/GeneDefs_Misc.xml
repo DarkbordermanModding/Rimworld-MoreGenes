@@ -178,6 +178,26 @@
     <biostatMet>1</biostatMet>
   </GeneDef>
 
+  <!-- Gourmand -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Gourmand</defName>
+    <label>Gourmand</label>
+    <labelShortAdj>Gourmand</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Skills/Cooking/Strong</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>Gourmand</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>Gourmand</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
   <!-- max nutrition -->
   <GeneDef Name="GeneMaxNutritionBase" Abstract="True">
     <displayCategory>Miscellaneous</displayCategory>
