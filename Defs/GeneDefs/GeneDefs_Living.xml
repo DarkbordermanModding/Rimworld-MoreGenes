@@ -20,7 +20,7 @@
       </li>
     </forcedTraits>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>1</biostatMet>
+    <biostatMet>-1</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneLivingBase">

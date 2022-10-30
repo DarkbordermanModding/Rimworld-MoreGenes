@@ -15,7 +15,7 @@
     <iconPath>UI/Icons/Genes/Gene_BodyHulk</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>-1</biostatMet>
+    <biostatMet>0</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneBodySizeBase">
@@ -26,6 +26,6 @@
     <iconPath>UI/Icons/Genes/Gene_BodyHulk</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>-1</biostatMet>
+    <biostatMet>0</biostatMet>
   </GeneDef>
 </Defs>
