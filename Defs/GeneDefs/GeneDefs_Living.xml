@@ -19,6 +19,10 @@
         <def>Ascetic</def>
       </li>
     </forcedTraits>
+    <exclusionTags>
+      <li>Living</li>
+      <li>Gourmand</li>
+    </exclusionTags>
     <biostatCpx>1</biostatCpx>
     <biostatMet>-1</biostatMet>
   </GeneDef>
