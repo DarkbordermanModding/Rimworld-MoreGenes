@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GeneDef[defName="Learning_Slow"]</xpath>
+    <value>
+      <exclusionTags>
+        <li>Learning</li>
+        <li>SlowLearner</li>
+      </exclusionTags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GeneDef[defName="Inbred"]</xpath>
+    <value>
+      <exclusionTags>
+        <li>Learning</li>
+        <li>SlowLearner</li>
+      </exclusionTags>
+    </value>
+  </Operation>
+</Patch>

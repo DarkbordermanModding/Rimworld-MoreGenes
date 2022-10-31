@@ -198,6 +198,27 @@
     <biostatMet>0</biostatMet>
   </GeneDef>
 
+
+  <!-- Too smart -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>TooSmart</defName>
+    <label>Too smart</label>
+    <labelShortAdj>Too smart</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>SlowLearner</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>TooSmart</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
   <!-- max nutrition -->
   <GeneDef Name="GeneMaxNutritionBase" Abstract="True">
     <displayCategory>Miscellaneous</displayCategory>
