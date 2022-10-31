@@ -8,7 +8,8 @@
 	</supportedVersions>
 	<description>A simple mod that add more genes about vanilla traits.</description>
 	<loadAfter>
+		<li>brrainz.harmony</li>
 		<li>Ludeon.Rimworld</li>
-		<li>Ludeon.Biotech</li>
+		<li>Ludeon.Rimworld.Biotech</li>
 	</loadAfter>
 </ModMetaData>

@@ -219,6 +219,21 @@
     <biostatMet>0</biostatMet>
   </GeneDef>
 
+  <!-- Nudist -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Nudist</defName>
+    <label>Nudist</label>
+    <labelShortAdj>Nudist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>Nudist</li>
+    </exclusionTags>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
   <!-- max nutrition -->
   <GeneDef Name="GeneMaxNutritionBase" Abstract="True">
     <displayCategory>Miscellaneous</displayCategory>
