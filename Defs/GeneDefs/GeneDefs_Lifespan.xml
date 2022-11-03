@@ -69,7 +69,7 @@
     <labelShortAdj>Extremely long lifespan</labelShortAdj>
     <description>Carrier of this gene has extremely long lifespan.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
-    <displayOrderInCategory>40</displayOrderInCategory>
+    <displayOrderInCategory>50</displayOrderInCategory>
     <statFactors>
       <LifespanFactor>4.0</LifespanFactor>
     </statFactors>

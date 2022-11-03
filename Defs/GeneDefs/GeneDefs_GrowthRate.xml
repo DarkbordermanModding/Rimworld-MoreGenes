@@ -31,7 +31,7 @@
     <labelShortAdj>Fast growth rate</labelShortAdj>
     <description>No description.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
-    <displayOrderInCategory>10</displayOrderInCategory>
+    <displayOrderInCategory>20</displayOrderInCategory>
     <exclusionTags>
       <li>YouthAging</li>
     </exclusionTags>
@@ -55,7 +55,7 @@
       <li>AdultAging</li>
     </exclusionTags>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
-    <displayOrderInCategory>10</displayOrderInCategory>
+    <displayOrderInCategory>30</displayOrderInCategory>
     <biologicalAgeTickFactorFromAgeCurve>
       <points>
         <li>(18, 1)</li>
@@ -72,7 +72,7 @@
     <labelShortAdj>Very slow aging rate</labelShortAdj>
     <description>No description.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
-    <displayOrderInCategory>10</displayOrderInCategory>
+    <displayOrderInCategory>40</displayOrderInCategory>
     <exclusionTags>
       <li>AdultAging</li>
     </exclusionTags>
@@ -92,7 +92,7 @@
     <labelShortAdj>Extremely slow aging rate</labelShortAdj>
     <description>No description.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
-    <displayOrderInCategory>10</displayOrderInCategory>
+    <displayOrderInCategory>50</displayOrderInCategory>
     <exclusionTags>
       <li>AdultAging</li>
     </exclusionTags>
