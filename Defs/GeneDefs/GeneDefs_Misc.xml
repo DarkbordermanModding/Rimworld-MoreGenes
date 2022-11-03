@@ -227,9 +227,11 @@
     <description>No description.</description>
     <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
-    <exclusionTags>
-      <li>Nudist</li>
-    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>Nudist</def>
+      </li>
+    </forcedTraits>
     <biostatCpx>1</biostatCpx>
     <biostatMet>0</biostatMet>
   </GeneDef>
