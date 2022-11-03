@@ -59,7 +59,7 @@
     <biologicalAgeTickFactorFromAgeCurve>
       <points>
         <li>(18, 1)</li>
-        <li>(19, 0.85)</li>
+        <li>(19, 0.70)</li>
       </points>
     </biologicalAgeTickFactorFromAgeCurve>
     <biostatCpx>1</biostatCpx>
@@ -79,10 +79,30 @@
     <biologicalAgeTickFactorFromAgeCurve>
       <points>
         <li>(18, 1)</li>
-        <li>(19, 0.75)</li>
+        <li>(19, 0.40)</li>
       </points>
     </biologicalAgeTickFactorFromAgeCurve>
     <biostatCpx>1</biostatCpx>
+    <biostatMet>-4</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGrowthRateBase">
+    <defName>ExtremelySlowGrowthRate</defName>
+    <label>Extremely slow aging rate</label>
+    <labelShortAdj>Extremely slow aging rate</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>AdultAging</li>
+    </exclusionTags>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(18, 1)</li>
+        <li>(19, 0.10)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <biostatCpx>2</biostatCpx>
     <biostatMet>-5</biostatMet>
   </GeneDef>
 </Defs>

@@ -43,10 +43,10 @@
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <statFactors>
-      <LifespanFactor>1.25</LifespanFactor>
+      <LifespanFactor>1.5</LifespanFactor>
     </statFactors>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>-1</biostatMet>
+    <biostatMet>-3</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneLifespanBase">
@@ -57,9 +57,23 @@
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     <statFactors>
-      <LifespanFactor>1.5</LifespanFactor>
+      <LifespanFactor>2.0</LifespanFactor>
     </statFactors>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>-2</biostatMet>
+    <biostatMet>-5</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLifespanBase">
+    <defName>LifespanExtremelyLong</defName>
+    <label>Extremely long lifespan</label>
+    <labelShortAdj>Extremely long lifespan</labelShortAdj>
+    <description>Carrier of this gene has extremely long lifespan.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <statFactors>
+      <LifespanFactor>4.0</LifespanFactor>
+    </statFactors>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-6</biostatMet>
   </GeneDef>
 </Defs>
