@@ -133,8 +133,14 @@
   </GeneCategoryDef>
 
   <GeneCategoryDef>
+    <defName>Neurotic</defName>
+    <label>Neurotic(More genes)</label>
+    <displayPriorityInXenotype>-1200</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
     <defName>MoreGeneMiscellaneous</defName>
     <label>Miscellaneous(More genes)</label>
-    <displayPriorityInXenotype>-1200</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1210</displayPriorityInXenotype>
   </GeneCategoryDef>
 </Defs>
