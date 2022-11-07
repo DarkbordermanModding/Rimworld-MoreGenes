@@ -11,12 +11,12 @@
     <exclusionTags>
       <li>PsychicTraits</li>
     </exclusionTags>
-    <suppressedTraits>
+    <forcedTraits>
       <li>
         <def>PsychicSensitivity</def>
         <degree>1</degree>
       </li>
-    </suppressedTraits>
+    </forcedTraits>
     <biostatCpx>1</biostatCpx>
     <biostatMet>-1</biostatMet>
   </GeneDef>
@@ -32,12 +32,12 @@
     <exclusionTags>
       <li>PsychicTraits</li>
     </exclusionTags>
-    <suppressedTraits>
+    <forcedTraits>
       <li>
         <def>PsychicSensitivity</def>
         <degree>2</degree>
       </li>
-    </suppressedTraits>
+    </forcedTraits>
     <biostatCpx>1</biostatCpx>
     <biostatMet>-2</biostatMet>
   </GeneDef>
