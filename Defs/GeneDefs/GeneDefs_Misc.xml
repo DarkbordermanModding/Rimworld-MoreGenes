@@ -235,4 +235,38 @@
     <biostatCpx>1</biostatCpx>
     <biostatMet>0</biostatMet>
   </GeneDef>
+
+  <!-- Quick sleeper -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>QuickSleeper</defName>
+    <label>Quick sleeper</label>
+    <labelShortAdj>Quick sleeper</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_QuickSleeper</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>QuickSleeper</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <!-- Tortured Artist -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>TorturedArtist</defName>
+    <label>Tortured artist</label>
+    <labelShortAdj>Tortured artist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Skills/Artistic/Strong</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TorturedArtist</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
 </Defs>
