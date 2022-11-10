@@ -16,8 +16,8 @@
         <def>Tough</def>
       </li>
     </forcedTraits>
-    <biostatCpx>1</biostatCpx>
-    <biostatMet>-3</biostatMet>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-5</biostatMet>
   </GeneDef>
   <!-- Night Owl -->
   <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">

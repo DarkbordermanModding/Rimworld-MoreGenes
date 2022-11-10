@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
   <!-- Add category to block selecting  -->
-  <Operation Class="PatchOperationInsert">
-    <xpath>Defs/GeneDef[defName="KindInstinct"]/exclusionTags/li[1]</xpath>
-    <value>
-      <li>Psychopath</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationInsert">
-    <xpath>Defs/GeneDef[defName="KindInstinct"]/exclusionTags/li[1]</xpath>
-    <value>
-      <li>VerbalConflict</li>
-    </value>
+  <!-- Use PatchOperationConditional for compatibility -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/GeneDef[defName="KindInstinct"]/exclusionTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/GeneDef[defName="KindInstinct"]</xpath>
+      <value>
+        <exclusionTags>
+          <li>Psychopath</li>
+          <li>VerbalConflict</li>
+        </exclusionTags>
+      </value>
+    </nomatch>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/GeneDef[defName="KindInstinct"]/exclusionTags/li[1]</xpath>
+          <value>
+            <li>Psychopath</li>
+          </value>
+        </li>
+        <li Class="PatchOperationInsert">
+          <xpath>Defs/GeneDef[defName="KindInstinct"]/exclusionTags/li[1]</xpath>
+          <value>
+            <li>VerbalConflict</li>
+          </value>
+        </li>
+      </operations>
+    </match>
   </Operation>
 </Patch>

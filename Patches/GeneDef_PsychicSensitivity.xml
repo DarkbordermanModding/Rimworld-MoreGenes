@@ -6,7 +6,7 @@
     <value>
       <displayCategory>Psychic</displayCategory>
       <exclusionTags>
-        <li>PsychicSensitivity</li>
+        <li>PsychicAbility</li>
         <li>PsychicTraits</li>
       </exclusionTags>
     </value>
@@ -16,7 +16,7 @@
     <value>
       <displayCategory>Psychic</displayCategory>
       <exclusionTags>
-        <li>PsychicSensitivity</li>
+        <li>PsychicAbility</li>
         <li>PsychicTraits</li>
       </exclusionTags>
     </value>

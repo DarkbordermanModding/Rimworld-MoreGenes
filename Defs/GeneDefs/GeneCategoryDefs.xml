@@ -139,8 +139,14 @@
   </GeneCategoryDef>
 
   <GeneCategoryDef>
+    <defName>Speed</defName>
+    <label>Walk Speed(More genes)</label>
+    <displayPriorityInXenotype>-1210</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
     <defName>MoreGeneMiscellaneous</defName>
     <label>Miscellaneous(More genes)</label>
-    <displayPriorityInXenotype>-1210</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1220</displayPriorityInXenotype>
   </GeneCategoryDef>
 </Defs>
