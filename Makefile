@@ -1,2 +1,2 @@
 cleanup:
-	rm -rf bin/Release/net472/
+	rm -rf Source/MoreGenes/bin/
