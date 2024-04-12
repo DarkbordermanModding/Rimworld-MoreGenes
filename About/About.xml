@@ -5,6 +5,7 @@
   <packageId>Darkborderman.MoreTraitGenes</packageId>
   <supportedVersions>
     <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
   <description>A simple mod that add more genes about vanilla traits.</description>
   <modDependencies>
