@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneBodyModificationBase" Abstract="True">
+    <displayCategory>BodyModification</displayCategory>
+    <exclusionTags>
+      <li>BodyModification</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBodyModificationBase">
+    <defName>BodyModificationBodyPurist</defName>
+    <label>Body Purist</label>
+    <labelShortAdj>Body Purist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>BodyPurist</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBodyModificationBase">
+    <defName>BodyModificationTranshumanist</defName>
+    <label>Transhumanist</label>
+    <labelShortAdj>Transhumanist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Transhumanist</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+</Defs>

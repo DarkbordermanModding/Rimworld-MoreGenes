@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneGrowthRateBase" Abstract="True">
+    <displayCategory>GrowthRate</displayCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGrowthRateBase">
+    <defName>VeryFastGrowthRate</defName>
+    <label>Very fast growth rate</label>
+    <labelShortAdj>Very fast growth rate</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>YouthAging</li>
+    </exclusionTags>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(3, 15)</li>
+        <li>(4, 10)</li>
+        <li>(13, 5)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-6</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGrowthRateBase">
+    <defName>FastGrowthRate</defName>
+    <label>Fast growth rate</label>
+    <labelShortAdj>Fast growth rate</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <exclusionTags>
+      <li>YouthAging</li>
+    </exclusionTags>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(3, 9)</li>
+        <li>(4, 6)</li>
+        <li>(13, 3)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-3</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGrowthRateBase">
+    <defName>SlowGrowthRate</defName>
+    <label>Slow aging rate</label>
+    <labelShortAdj>Slow aging rate</labelShortAdj>
+    <description>No description.</description>
+    <exclusionTags>
+      <li>AdultAging</li>
+    </exclusionTags>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(18, 1)</li>
+        <li>(19, 0.70)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGrowthRateBase">
+    <defName>VerySlowGrowthRate</defName>
+    <label>Very slow aging rate</label>
+    <labelShortAdj>Very slow aging rate</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <exclusionTags>
+      <li>AdultAging</li>
+    </exclusionTags>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(18, 1)</li>
+        <li>(19, 0.40)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-4</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneGrowthRateBase">
+    <defName>ExtremelySlowGrowthRate</defName>
+    <label>Extremely slow aging rate</label>
+    <labelShortAdj>Extremely slow aging rate</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <exclusionTags>
+      <li>AdultAging</li>
+    </exclusionTags>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(18, 1)</li>
+        <li>(19, 0.10)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-5</biostatMet>
+  </GeneDef>
+</Defs>

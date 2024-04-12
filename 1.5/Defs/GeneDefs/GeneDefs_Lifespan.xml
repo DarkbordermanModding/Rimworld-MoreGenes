@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneLifespanBase" Abstract="True">
+    <displayCategory>Lifespan</displayCategory>
+    <exclusionTags>
+      <li>Lifespan</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLifespanBase">
+    <defName>LifespanVeryShort</defName>
+    <label>Very short lifespan</label>
+    <labelShortAdj>Very short lifespan</labelShortAdj>
+    <description>Carrier of this gene has very short lifespan.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <statFactors>
+      <LifespanFactor>0.25</LifespanFactor>
+    </statFactors>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>6</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLifespanBase">
+    <defName>LifespanShort</defName>
+    <label>Short lifespan</label>
+    <labelShortAdj>Short lifespan</labelShortAdj>
+    <description>Carrier of this gene has short lifespan.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <statFactors>
+      <LifespanFactor>0.5</LifespanFactor>
+    </statFactors>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLifespanBase">
+    <defName>LifespanLong</defName>
+    <label>Long lifespan</label>
+    <labelShortAdj>Long lifespan</labelShortAdj>
+    <description>Carrier of this gene has long lifespan.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <statFactors>
+      <LifespanFactor>1.5</LifespanFactor>
+    </statFactors>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-3</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLifespanBase">
+    <defName>LifespanVeryLong</defName>
+    <label>Very long lifespan</label>
+    <labelShortAdj>Very long lifespan</labelShortAdj>
+    <description>Carrier of this gene has very long lifespan.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <statFactors>
+      <LifespanFactor>2.0</LifespanFactor>
+    </statFactors>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-5</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLifespanBase">
+    <defName>LifespanExtremelyLong</defName>
+    <label>Extremely long lifespan</label>
+    <labelShortAdj>Extremely long lifespan</labelShortAdj>
+    <description>Carrier of this gene has extremely long lifespan.</description>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <statFactors>
+      <LifespanFactor>4.0</LifespanFactor>
+    </statFactors>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-6</biostatMet>
+  </GeneDef>
+</Defs>

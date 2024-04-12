@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneMoreGeneMiscellaneousBase" Abstract="True">
+    <displayCategory>MoreGeneMiscellaneous</displayCategory>
+  </GeneDef>
+  <!-- Tough -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <displayCategory>MoreGeneMiscellaneous</displayCategory>
+    <defName>HealthTough</defName>
+    <label>Tough</label>
+    <description>Carriers of this gene take less injuries than others from the same damage. They have thickened, densified bones, nearly-solid ribcages, and strengthened binding factors in joints and flesh.</description>
+    <iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+    <displayOrderInCategory>15</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Tough</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-5</biostatMet>
+  </GeneDef>
+  <!-- Night Owl -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>NightOwl</defName>
+    <label>Night owl</label>
+    <labelShortAdj>Night owl</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_GrayEyes</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>NightOwl</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+  <!-- Undergrounder -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Undergrounder</defName>
+    <label>Undergrounder</label>
+    <labelShortAdj>Undergrounder</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Skills/Mining/Strong</iconPath>
+    <displayOrderInCategory>1</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Undergrounder</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+  <!-- Nimble -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Nimble</defName>
+    <label>Nimble</label>
+    <labelShortAdj>Nimble</labelShortAdj>
+    <description>Carriers of this gene is nimble than others.</description>
+    <iconPath>UI/Icons/Genes/Gene_QuickMovespeed</iconPath>
+    <displayOrderInCategory>2</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Nimble</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <!-- Masochist -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Masochist</defName>
+    <label>Masochist</label>
+    <labelShortAdj>Masochist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
+    <displayOrderInCategory>3</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Masochist</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <!-- Great memory -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>GreatMemory</defName>
+    <label>Great Memory</label>
+    <labelShortAdj>Great Memory</labelShortAdj>
+    <description>Carriers of this gene have excellent memories.</description>
+    <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
+    <displayOrderInCategory>60</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>GreatMemory</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <!-- Cannibal -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Cannibal</defName>
+    <label>Cannibal</label>
+    <labelShortAdj>Cannibal</labelShortAdj>
+    <description>Carriers of this gene have instinct to human meat.</description>
+    <iconPath>UI/Icons/Genes/Gene_Bloodfeeder</iconPath>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Cannibal</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <!-- Bloodlust -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Aggression_Bloodlust</defName>
+    <label>Bloodlust</label>
+    <labelShortAdj>Bloodlust</labelShortAdj>
+    <description>Carriers of this gene have instinct to kill others.</description>
+    <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
+    <displayOrderInCategory>90</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Bloodlust</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <!-- Pyromaniac -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Pyromaniac</defName>
+    <label>Pyromaniac</label>
+    <labelShortAdj>Pyromaniac</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_FireWeakness</iconPath>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Pyromaniac</def>
+      </li>
+    </forcedTraits>
+    <exclusionTags>
+      <li>Pyromaniac</li>
+    </exclusionTags>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <!-- Psychopath -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Psychopath</defName>
+    <label>Psychopath</label>
+    <labelShortAdj>Psychopath</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>Psychopath</li>
+      <li>DislikesMen</li>
+      <li>DislikesWomen</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>Psychopath</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <!-- Gourmand -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Gourmand</defName>
+    <label>Gourmand</label>
+    <labelShortAdj>Gourmand</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Skills/Cooking/Strong</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>Gourmand</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>Gourmand</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+
+  <!-- Too smart -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>TooSmart</defName>
+    <label>Too smart</label>
+    <labelShortAdj>Too smart</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>SlowLearner</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>TooSmart</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <!-- Nudist -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>Nudist</defName>
+    <label>Nudist</label>
+    <labelShortAdj>Nudist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Nudist</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <!-- Quick sleeper -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>QuickSleeper</defName>
+    <label>Quick sleeper</label>
+    <labelShortAdj>Quick sleeper</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_QuickSleeper</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>QuickSleeper</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <!-- Tortured Artist -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>TorturedArtist</defName>
+    <label>Tortured artist</label>
+    <labelShortAdj>Tortured artist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Skills/Artistic/Strong</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TorturedArtist</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+</Defs>

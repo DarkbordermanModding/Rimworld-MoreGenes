@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneMoreGeneNeuroticBase" Abstract="True">
+    <displayCategory>Neurotic</displayCategory>
+    <exclusionTags>
+      <li>Neurotic</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoreGeneNeuroticBase">
+    <defName>Neurotic</defName>
+    <label>Neurotic</label>
+    <labelShortAdj>Neurotic</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Neurotic</def>
+        <degree>1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoreGeneNeuroticBase">
+    <defName>VeryNeurotic</defName>
+    <label>Very neurotic</label>
+    <labelShortAdj>Very neurotic</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_HyperAggressive</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Neurotic</def>
+        <degree>2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-3</biostatMet>
+  </GeneDef>
+</Defs>

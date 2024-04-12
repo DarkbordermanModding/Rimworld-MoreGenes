@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>Brawler</defName>
+    <label>Brawler</label>
+    <labelShortAdj>Brawler</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+    <displayCategory>Pain</displayCategory>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <exclusionTags>
+      <li>WeaponPreference</li>
+      <li>BodyStrength</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>Brawler</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>CarefulShooter</defName>
+    <label>Careful shooter</label>
+    <labelShortAdj>Careful shooter</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Skills/Shooting/Strong</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <exclusionTags>
+      <li>WeaponPreference</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>ShootingAccuracy</def>
+        <degree>1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>TriggerHappy</defName>
+    <label>Trigger-happy</label>
+    <labelShortAdj>Trigger-happy</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Skills/Shooting/Poor</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <exclusionTags>
+      <li>WeaponPreference</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>ShootingAccuracy</def>
+        <degree>-1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+</Defs>

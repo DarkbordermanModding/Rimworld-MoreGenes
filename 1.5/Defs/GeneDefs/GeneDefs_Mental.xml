@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneMentalBase" Abstract="True">
+    <displayCategory>Mental</displayCategory>
+    <exclusionTags>
+      <li>Mental</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMentalBase">
+    <defName>NerveVolatile</defName>
+    <label>Volatile</label>
+    <labelShortAdj>Volatile</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Nerves</def>
+        <degree>-2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMentalBase">
+    <defName>NerveNervous</defName>
+    <label>Nervous</label>
+    <labelShortAdj>Nervous</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Nerves</def>
+        <degree>-1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>2</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMentalBase">
+    <defName>NerveSteadfast</defName>
+    <label>SteadFast</label>
+    <labelShortAdj>SteadFast</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Optimist</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Nerves</def>
+        <degree>1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMentalBase">
+    <defName>NerveIronWilled</defName>
+    <label>Iron Willed</label>
+    <labelShortAdj>Iron Willed</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Nerves</def>
+        <degree>2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+</Defs>
