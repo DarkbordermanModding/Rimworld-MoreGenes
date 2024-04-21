@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Body Purist -->
+  <BodyModificationBodyPurist.label>纯粹主义</BodyModificationBodyPurist.label>
+  <!-- EN: No description. -->
+  <BodyModificationBodyPurist.description>身体纯粹主义者。</BodyModificationBodyPurist.description>
+  <!-- EN: Body Purist -->
+  <BodyModificationBodyPurist.labelShortAdj>纯粹主义</BodyModificationBodyPurist.labelShortAdj>
+  
+  <!-- EN: Transhumanist -->
+  <BodyModificationTranshumanist.label>超人主义</BodyModificationTranshumanist.label>
+  <!-- EN: No description. -->
+  <BodyModificationTranshumanist.description>超人类主义者。</BodyModificationTranshumanist.description>
+  <!-- EN: Transhumanist -->
+  <BodyModificationTranshumanist.labelShortAdj>超人主义</BodyModificationTranshumanist.labelShortAdj>
+  
+</LanguageData>

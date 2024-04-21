@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Extremely long lifespan -->
+  <LifespanExtremelyLong.label>极度长寿</LifespanExtremelyLong.label>
+  <!-- EN: Carrier of this gene has extremely long lifespan. -->
+  <LifespanExtremelyLong.description>这种基因的携带者寿命非常长长长长长长。</LifespanExtremelyLong.description>
+  <!-- EN: Extremely long lifespan -->
+  <LifespanExtremelyLong.labelShortAdj>极度长寿</LifespanExtremelyLong.labelShortAdj>
+  
+  <!-- EN: Long lifespan -->
+  <LifespanLong.label>长寿</LifespanLong.label>
+  <!-- EN: Carrier of this gene has long lifespan. -->
+  <LifespanLong.description>这种基因的携带者寿命较长。</LifespanLong.description>
+  <!-- EN: Long lifespan -->
+  <LifespanLong.labelShortAdj>长寿</LifespanLong.labelShortAdj>
+  
+  <!-- EN: Short lifespan -->
+  <LifespanShort.label>短寿</LifespanShort.label>
+  <!-- EN: Carrier of this gene has short lifespan. -->
+  <LifespanShort.description>这种基因的携带者寿命较短。</LifespanShort.description>
+  <!-- EN: Short lifespan -->
+  <LifespanShort.labelShortAdj>短寿</LifespanShort.labelShortAdj>
+  
+  <!-- EN: Very long lifespan -->
+  <LifespanVeryLong.label>超长寿</LifespanVeryLong.label>
+  <!-- EN: Carrier of this gene has very long lifespan. -->
+  <LifespanVeryLong.description>这种基因的携带者寿命非常长。</LifespanVeryLong.description>
+  <!-- EN: Very long lifespan -->
+  <LifespanVeryLong.labelShortAdj>超长寿</LifespanVeryLong.labelShortAdj>
+  
+  <!-- EN: Very short lifespan -->
+  <LifespanVeryShort.label>超短寿</LifespanVeryShort.label>
+  <!-- EN: Carrier of this gene has very short lifespan. -->
+  <LifespanVeryShort.description>这种基因的携带者寿命非常短。</LifespanVeryShort.description>
+  <!-- EN: Very short lifespan -->
+  <LifespanVeryShort.labelShortAdj>超短寿</LifespanVeryShort.labelShortAdj>
+  
+</LanguageData>

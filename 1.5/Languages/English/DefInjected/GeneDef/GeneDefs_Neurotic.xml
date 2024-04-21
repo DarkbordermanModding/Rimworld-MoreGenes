@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Neurotic -->
+  <Neurotic.label>神经质</Neurotic.label>
+  <!-- EN: No description. -->
+  <Neurotic.description>强制获得“神经质”特性。</Neurotic.description>
+  <!-- EN: Neurotic -->
+  <Neurotic.labelShortAdj>神经质</Neurotic.labelShortAdj>
+  
+  <!-- EN: Very neurotic -->
+  <VeryNeurotic.label>严重神经质</VeryNeurotic.label>
+  <!-- EN: No description. -->
+  <VeryNeurotic.description>强制获得“严重神经质”特性。</VeryNeurotic.description>
+  <!-- EN: Very neurotic -->
+  <VeryNeurotic.labelShortAdj>严重神经质</VeryNeurotic.labelShortAdj>
+  
+</LanguageData>

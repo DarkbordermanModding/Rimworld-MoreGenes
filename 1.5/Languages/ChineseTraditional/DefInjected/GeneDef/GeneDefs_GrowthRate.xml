@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Extremely slow aging rate -->
+  <ExtremelySlowGrowthRate.label>极慢衰老</ExtremelySlowGrowthRate.label>
+  <!-- EN: No description. -->
+  <ExtremelySlowGrowthRate.description>极慢的衰老速度。</ExtremelySlowGrowthRate.description>
+  <!-- EN: Extremely slow aging rate -->
+  <ExtremelySlowGrowthRate.labelShortAdj>极慢的衰老速度</ExtremelySlowGrowthRate.labelShortAdj>
+  
+  <!-- EN: Fast growth rate -->
+  <FastGrowthRate.label>快速成长</FastGrowthRate.label>
+  <!-- EN: No description. -->
+  <FastGrowthRate.description>较快的成长速度。</FastGrowthRate.description>
+  <!-- EN: Fast growth rate -->
+  <FastGrowthRate.labelShortAdj>较快的成长速度</FastGrowthRate.labelShortAdj>
+  
+  <!-- EN: Slow aging rate -->
+  <SlowGrowthRate.label>慢速衰老</SlowGrowthRate.label>
+  <!-- EN: No description. -->
+  <SlowGrowthRate.description>较慢的衰老速度。</SlowGrowthRate.description>
+  <!-- EN: Slow aging rate -->
+  <SlowGrowthRate.labelShortAdj>较慢的衰老速度</SlowGrowthRate.labelShortAdj>
+  
+  <!-- EN: Very fast growth rate -->
+  <VeryFastGrowthRate.label>超快成长</VeryFastGrowthRate.label>
+  <!-- EN: No description. -->
+  <VeryFastGrowthRate.description>超快的成长速度。</VeryFastGrowthRate.description>
+  <!-- EN: Very fast growth rate -->
+  <VeryFastGrowthRate.labelShortAdj>超快的成长速度</VeryFastGrowthRate.labelShortAdj>
+  
+  <!-- EN: Very slow aging rate -->
+  <VerySlowGrowthRate.label>超慢衰老</VerySlowGrowthRate.label>
+  <!-- EN: No description. -->
+  <VerySlowGrowthRate.description>超慢的衰老速度。</VerySlowGrowthRate.description>
+  <!-- EN: Very slow aging rate -->
+  <VerySlowGrowthRate.labelShortAdj>超慢的衰老速度</VerySlowGrowthRate.labelShortAdj>
+  
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Large body -->
+  <LargeBodySize.label>大体型</LargeBodySize.label>
+  <!-- EN: Carriers of this gene has larger body size than others. -->
+  <LargeBodySize.description>这种基因的携带者的体型比一般人大。</LargeBodySize.description>
+  <!-- EN: Large body -->
+  <LargeBodySize.labelShortAdj>大体型</LargeBodySize.labelShortAdj>
+  
+  <!-- EN: Small body -->
+  <SmallBodySize.label>小体型</SmallBodySize.label>
+  <!-- EN: Carriers of this gene has smaller body size than others. -->
+  <SmallBodySize.description>这种基因的携带者的体型比一般人小。</SmallBodySize.description>
+  <!-- EN: Small body -->
+  <SmallBodySize.labelShortAdj>小体型</SmallBodySize.labelShortAdj>
+  
+</LanguageData>

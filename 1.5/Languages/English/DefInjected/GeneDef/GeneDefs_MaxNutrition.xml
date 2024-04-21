@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Large stomach -->
+  <LargeStomach.label>大胃王</LargeStomach.label>
+  <!-- EN: No description. -->
+  <LargeStomach.description>食量较大。</LargeStomach.description>
+  <!-- EN: Large stomach -->
+  <LargeStomach.labelShortAdj>大胃王</LargeStomach.labelShortAdj>
+  
+  <!-- EN: Small stomach -->
+  <SmallStomach.label>小胃口</SmallStomach.label>
+  <!-- EN: No description. -->
+  <SmallStomach.description>食量较小。</SmallStomach.description>
+  <!-- EN: Small stomach -->
+  <SmallStomach.labelShortAdj>小胃口</SmallStomach.labelShortAdj>
+  
+</LanguageData>
