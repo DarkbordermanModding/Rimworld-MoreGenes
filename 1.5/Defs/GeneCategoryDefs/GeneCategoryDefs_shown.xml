@@ -62,8 +62,14 @@
   </GeneCategoryDef>
 
   <GeneCategoryDef>
+    <defName>MoreGeneBeauty</defName>
+    <label>Beauty(More genes)</label>
+    <displayPriorityInXenotype>-1230</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
     <defName>MoreGeneMiscellaneous</defName>
     <label>Miscellaneous(More genes)</label>
-    <displayPriorityInXenotype>-1220</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1240</displayPriorityInXenotype>
   </GeneCategoryDef>
 </Defs>

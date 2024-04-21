@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneBeautyBase" Abstract="True">
+    <displayCategory>MoreGeneBeauty</displayCategory>
+    <exclusionTags>
+      <li>MoreGeneBeauty</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBeautyBase">
+    <defName>BeautyBeautiful</defName>
+    <label>Beautiful</label>
+    <labelShortAdj>Beautiful</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Beautiful</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Beauty</def>
+        <degree>2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBeautyBase">
+    <defName>BeautyPretty</defName>
+    <label>Pretty</label>
+    <labelShortAdj>Pretty</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Pretty</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Beauty</def>
+        <degree>1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBeautyBase">
+    <defName>Ugly</defName>
+    <label>Ugly</label>
+    <labelShortAdj>Ugly</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Ugly</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Beauty</def>
+        <degree>-1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBeautyBase">
+    <defName>StaggeringlyUgly</defName>
+    <label>StaggeringlyUgly</label>
+    <labelShortAdj>StaggeringlyUgly</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_StaggeringlyUgly</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Beauty</def>
+        <degree>-2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+</Defs>
