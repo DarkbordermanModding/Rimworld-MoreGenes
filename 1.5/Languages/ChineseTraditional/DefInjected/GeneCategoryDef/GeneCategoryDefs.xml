@@ -1,73 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: AdultAging -->
   <AdultAging.label>衰老</AdultAging.label>
-  
   <!-- EN: Body Modification(More genes) -->
   <BodyModification.label>身体改造</BodyModification.label>
-  
   <!-- EN: Body size(More genes) -->
   <BodySize.label>体型</BodySize.label>
-  
   <!-- EN: BodyStrength -->
   <BodyStrength.label>身体强度</BodyStrength.label>
-  
   <!-- EN: DislikesMen -->
   <DislikesMen.label>厌恶男性</DislikesMen.label>
-  
   <!-- EN: DislikesWomen -->
   <DislikesWomen.label>厌恶女性</DislikesWomen.label>
-  
   <!-- EN: Gourmand -->
   <Gourmand.label>贪食者</Gourmand.label>
-  
   <!-- EN: Growth rate(More genes) -->
   <GrowthRate.label>成长速度</GrowthRate.label>
-  
   <!-- EN: Lifespan(More genes) -->
   <Lifespan.label>寿命</Lifespan.label>
-  
   <!-- EN: Living(More genes) -->
   <Living.label>期望</Living.label>
-  
   <!-- EN: Mental thresholds(More genes) -->
   <Mental.label>意志</Mental.label>
-  
   <!-- EN: Miscellaneous(More genes) -->
   <MoreGeneMiscellaneous.label>混杂</MoreGeneMiscellaneous.label>
-  
   <!-- EN: Neurotic(More genes) -->
   <Neurotic.label>神经质</Neurotic.label>
-  
   <!-- EN: PsychicTraits -->
   <PsychicTraits.label>心灵敏感度</PsychicTraits.label>
-  
   <!-- EN: Psychopath -->
   <Psychopath.label>心理变态</Psychopath.label>
-  
   <!-- EN: Pyromaniac -->
   <Pyromaniac.label>纵火狂</Pyromaniac.label>
-  
   <!-- EN: Relationship(More genes) -->
   <Relationship.label>人际关系</Relationship.label>
-  
   <!-- EN: SlowLearner -->
   <SlowLearner.label>脑子慢</SlowLearner.label>
-  
   <!-- EN: Walk Speed(More genes) -->
   <Speed.label>移动速度</Speed.label>
-  
   <!-- EN: VerbalConflict -->
   <VerbalConflict.label>言语冲突</VerbalConflict.label>
-  
   <!-- EN: WeaponPreference -->
   <WeaponPreference.label>武器偏好</WeaponPreference.label>
-  
   <!-- EN: Works(More genes) -->
   <Works.label>工作效率</Works.label>
-  
   <!-- EN: YouthAging -->
   <YouthAging.label>儿童成长</YouthAging.label>
-  
 </LanguageData>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Shown category for displaying purpose -->
+  <GeneCategoryDef>
+    <defName>BodySize</defName>
+    <label>Body size(More genes)</label>
+    <displayPriorityInXenotype>-1120</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>BodyModification</defName>
+    <label>Body Modification(More genes)</label>
+    <displayPriorityInXenotype>-1130</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>GrowthRate</defName>
+    <label>Growth rate(More genes)</label>
+    <displayPriorityInXenotype>-1140</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Lifespan</defName>
+    <label>Lifespan(More genes)</label>
+    <displayPriorityInXenotype>-1150</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Mental</defName>
+    <label>Mental thresholds(More genes)</label>
+    <displayPriorityInXenotype>-1160</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Relationship</defName>
+    <label>Relationship(More genes)</label>
+    <displayPriorityInXenotype>-1170</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Works</defName>
+    <label>Works(More genes)</label>
+    <displayPriorityInXenotype>-1180</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Living</defName>
+    <label>Living(More genes)</label>
+    <displayPriorityInXenotype>-1190</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Neurotic</defName>
+    <label>Neurotic(More genes)</label>
+    <displayPriorityInXenotype>-1200</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>Speed</defName>
+    <label>Walk Speed(More genes)</label>
+    <displayPriorityInXenotype>-1210</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>MoreGeneMiscellaneous</defName>
+    <label>Miscellaneous(More genes)</label>
+    <displayPriorityInXenotype>-1220</displayPriorityInXenotype>
+  </GeneCategoryDef>
+</Defs>

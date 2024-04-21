@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Hidden category for exclusionTags -->
+  <!-- Brawler(physics) and Accurancy trait blocker -->
+  <GeneCategoryDef>
+    <defName>WeaponPreference</defName>
+    <label>WeaponPreference</label>
+    <displayPriorityInXenotype>-1000</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Kind and Abrasive blocker -->
+  <GeneCategoryDef>
+    <defName>VerbalConflict</defName>
+    <label>VerbalConflict</label>
+    <displayPriorityInXenotype>-1010</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Psychopath to kind blocker -->
+  <GeneCategoryDef>
+    <defName>Psychopath</defName>
+    <label>Psychopath</label>
+    <displayPriorityInXenotype>-1020</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Psychopath to Misandrist blocker -->
+  <GeneCategoryDef>
+    <defName>DislikesMen</defName>
+    <label>DislikesMen</label>
+    <displayPriorityInXenotype>-1030</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Psychopath to Misogynist blocker -->
+  <GeneCategoryDef>
+    <defName>DislikesWomen</defName>
+    <label>DislikesWomen</label>
+    <displayPriorityInXenotype>-1040</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Wimp and Brawler blocker -->
+  <GeneCategoryDef>
+    <defName>BodyStrength</defName>
+    <label>BodyStrength</label>
+    <displayPriorityInXenotype>-1050</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Gourmand and Ascetic blocker -->
+  <GeneCategoryDef>
+    <defName>Gourmand</defName>
+    <label>Gourmand</label>
+    <displayPriorityInXenotype>-1060</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Growth rate block for youth aging -->
+  <GeneCategoryDef>
+    <defName>YouthAging</defName>
+    <label>YouthAging</label>
+    <displayPriorityInXenotype>-1070</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Growth rate block for adult aging -->
+  <GeneCategoryDef>
+    <defName>AdultAging</defName>
+    <label>AdultAging</label>
+    <displayPriorityInXenotype>-1080</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Growth rate block for pyromaniac -->
+  <GeneCategoryDef>
+    <defName>Pyromaniac</defName>
+    <label>Pyromaniac</label>
+    <displayPriorityInXenotype>-1090</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Category block for Psychics traits -->
+  <GeneCategoryDef>
+    <defName>PsychicTraits</defName>
+    <label>PsychicTraits</label>
+    <displayPriorityInXenotype>-1100</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Too smart and slow learner trait blocks -->
+  <GeneCategoryDef>
+    <defName>SlowLearner</defName>
+    <label>SlowLearner</label>
+    <displayPriorityInXenotype>-1110</displayPriorityInXenotype>
+  </GeneCategoryDef>
+</Defs>
