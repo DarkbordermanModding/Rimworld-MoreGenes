@@ -2,6 +2,12 @@
 <Defs>
   <!-- Shown category for displaying purpose -->
   <GeneCategoryDef>
+    <defName>MoreGenePsychicTraits</defName>
+    <label>Psychic Traits(More genes)</label>
+    <displayPriorityInXenotype>-1110</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
     <defName>BodySize</defName>
     <label>Body size(More genes)</label>
     <displayPriorityInXenotype>-1120</displayPriorityInXenotype>

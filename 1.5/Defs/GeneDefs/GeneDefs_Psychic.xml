@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <GeneDef>
+  <GeneDef Name="GenePsychicBase" Abstract="True">
+    <displayCategory>MoreGenePsychicTraits</displayCategory>
+    <exclusionTags>
+      <li>MoreGenePsychicTraits</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GenePsychicBase">
     <defName>PsychicallySensitive</defName>
     <label>Psychically sensitive</label>
     <labelShortAdj>Psychically sensitive</labelShortAdj>
     <description>No description.</description>
     <iconPath>UI/Icons/Genes/Gene_EnhancedPsychicAbility</iconPath>
-    <displayCategory>Psychic</displayCategory>
     <displayOrderInCategory>16</displayOrderInCategory>
-    <exclusionTags>
-      <li>PsychicTraits</li>
-    </exclusionTags>
     <forcedTraits>
       <li>
         <def>PsychicSensitivity</def>
@@ -21,17 +24,13 @@
     <biostatMet>-1</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="GenePsychicBase">
     <defName>PsychicallyHypersensitive</defName>
     <label>Psychically hypersensitive</label>
     <labelShortAdj>Psychically hypersensitive</labelShortAdj>
     <description>No description.</description>
     <iconPath>UI/Icons/Genes/Gene_ExtremePsychicAbility</iconPath>
-    <displayCategory>Psychic</displayCategory>
     <displayOrderInCategory>21</displayOrderInCategory>
-    <exclusionTags>
-      <li>PsychicTraits</li>
-    </exclusionTags>
     <forcedTraits>
       <li>
         <def>PsychicSensitivity</def>
@@ -42,17 +41,13 @@
     <biostatMet>-2</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="GenePsychicBase">
     <defName>NeuralSensitivity</defName>
     <label>Neutral Sensitivity</label>
     <labelShortAdj>Neutral Sensitivity</labelShortAdj>
     <description>Supresses traits that related to psychics</description>
     <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
-    <displayCategory>Psychic</displayCategory>
     <displayOrderInCategory>15</displayOrderInCategory>
-    <exclusionTags>
-      <li>PsychicTraits</li>
-    </exclusionTags>
     <suppressedTraits>
       <li>
         <def>PsychicSensitivity</def>
