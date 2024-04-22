@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: WeaponPreference -->
+  <WeaponPreference.label>武器偏好</WeaponPreference.label>
+  <!-- EN: VerbalConflict -->
+  <VerbalConflict.label>言语冲突</VerbalConflict.label>
+  <!-- EN: Psychopath -->
+  <Psychopath.label>心理变态</Psychopath.label>
+  <!-- EN: DislikesMen -->
+  <DislikesMen.label>厌恶男性</DislikesMen.label>
+  <!-- EN: DislikesWomen -->
+  <DislikesWomen.label>厌恶女性</DislikesWomen.label>
+  <!-- EN: BodyStrength -->
+  <BodyStrength.label>身体强度</BodyStrength.label>
+  <!-- EN: Gourmand -->
+  <Gourmand.label>贪食者</Gourmand.label>
+  <!-- EN: YouthAging -->
+  <YouthAging.label>儿童成长</YouthAging.label>
+  <!-- EN: AdultAging -->
+  <AdultAging.label>衰老</AdultAging.label>
+  <!-- EN: Pyromaniac -->
+  <Pyromaniac.label>纵火狂</Pyromaniac.label>
+  <!-- EN: PsychicTraits -->
+  <PsychicTraits.label>心灵敏感度</PsychicTraits.label>
+  <!-- EN: SlowLearner -->
+  <SlowLearner.label>脑子慢</SlowLearner.label>
+</LanguageData>
