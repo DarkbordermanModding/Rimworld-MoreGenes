@@ -80,4 +80,81 @@
     <biostatCpx>-1</biostatCpx>
     <biostatMet>-1</biostatMet>
   </GeneDef>
+
+  <GeneDef ParentName="MoreGeneEfficiencyBase">
+    <defName>MoreGeneEfficiencyBasePositive1</defName>
+    <label>Efficiency(1)</label>
+    <labelShortAdj>Efficiency(1)</labelShortAdj>
+    <description>Carriers of this gene have lower metabolic efficiency in exchange for reduced complexity.</description>
+    <iconPath>UI/Icons/Genes/Gene_MildCellInstability</iconPath>
+    <displayOrderInCategory>80</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneEfficiencyBase">
+    <defName>MoreGeneEfficiencyBasePositive2</defName>
+    <label>Efficiency(2)</label>
+    <labelShortAdj>Efficiency(2)</labelShortAdj>
+    <description>Carriers of this gene have lower metabolic efficiency in exchange for reduced complexity.</description>
+    <iconPath>UI/Icons/Genes/Gene_MildCellInstability</iconPath>
+    <displayOrderInCategory>90</displayOrderInCategory>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>2</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneEfficiencyBase">
+    <defName>MoreGeneEfficiencyBasePositive3</defName>
+    <label>Efficiency(3)</label>
+    <labelShortAdj>Efficiency(3)</labelShortAdj>
+    <description>Carriers of this gene have lower metabolic efficiency in exchange for reduced complexity.</description>
+    <iconPath>UI/Icons/Genes/Gene_MildCellInstability</iconPath>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneEfficiencyBase">
+    <defName>MoreGeneEfficiencyBasePositive4</defName>
+    <label>Efficiency(4)</label>
+    <labelShortAdj>Efficiency(4)</labelShortAdj>
+    <description>Carriers of this gene have lower metabolic efficiency in exchange for reduced complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <iconPath>UI/Icons/Genes/Gene_MajorCellInstability</iconPath>
+    <displayOrderInCategory>110</displayOrderInCategory>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>4</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneEfficiencyBase">
+    <defName>MoreGeneEfficiencyBasePositive5</defName>
+    <label>Efficiency(5)</label>
+    <labelShortAdj>Efficiency(5)</labelShortAdj>
+    <description>Carriers of this gene have lower metabolic efficiency in exchange for reduced complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <iconPath>UI/Icons/Genes/Gene_MajorCellInstability</iconPath>
+    <displayOrderInCategory>120</displayOrderInCategory>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>5</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneEfficiencyBase">
+    <defName>MoreGeneEfficiencyBasePositive6</defName>
+    <label>Efficiency(6)</label>
+    <labelShortAdj>Efficiency(6)</labelShortAdj>
+    <description>Carriers of this gene have lower metabolic efficiency in exchange for reduced complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <iconPath>UI/Icons/Genes/Gene_MajorCellInstability</iconPath>
+    <displayOrderInCategory>130</displayOrderInCategory>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>6</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneEfficiencyBase">
+    <defName>MoreGeneEfficiencyBasePositive7</defName>
+    <label>Efficiency(7)</label>
+    <labelShortAdj>Efficiency(7)</labelShortAdj>
+    <description>Carriers of this gene have lower metabolic efficiency in exchange for reduced complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <iconPath>UI/Icons/Genes/Gene_MajorCellInstability</iconPath>
+    <displayOrderInCategory>140</displayOrderInCategory>
+    <biostatCpx>7</biostatCpx>
+    <biostatMet>7</biostatMet>
+  </GeneDef>
 </Defs>
