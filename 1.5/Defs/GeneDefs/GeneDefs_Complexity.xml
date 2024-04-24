@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="MoreGeneEfficiencyBase" Abstract="True">
+    <displayCategory>MoreGeneEfficiency</displayCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneEfficiencyBase">
+    <defName>MoreGeneEfficiencyBaseNegative7</defName>
+    <label>Efficiency(-7)</label>
+    <labelShortAdj>Efficiency(-7)</labelShortAdj>
+    <description>Carriers of this gene have lower metabolic efficiency in exchange for reduced complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <iconPath>UI/Icons/Genes/Gene_BodyHulk</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <biostatCpx>-7</biostatCpx>
+    <biostatMet>-7</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneEfficiencyBase">
+    <defName>MoreGeneEfficiencyBaseNegative6</defName>
+    <label>Efficiency(-6)</label>
+    <labelShortAdj>Efficiency(-6)</labelShortAdj>
+    <description>Carriers of this gene have lower metabolic efficiency in exchange for reduced complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <iconPath>UI/Icons/Genes/Gene_BodyHulk</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <biostatCpx>-6</biostatCpx>
+    <biostatMet>-6</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneEfficiencyBase">
+    <defName>MoreGeneEfficiencyBaseNegative5</defName>
+    <label>Efficiency(-5)</label>
+    <labelShortAdj>Efficiency(-5)</labelShortAdj>
+    <description>Carriers of this gene have lower metabolic efficiency in exchange for reduced complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <iconPath>UI/Icons/Genes/Gene_BodyHulk</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <biostatCpx>-5</biostatCpx>
+    <biostatMet>-5</biostatMet>
+  </GeneDef>
+</Defs>

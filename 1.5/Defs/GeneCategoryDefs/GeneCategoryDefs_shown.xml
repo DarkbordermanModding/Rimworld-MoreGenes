@@ -74,8 +74,14 @@
   </GeneCategoryDef>
 
   <GeneCategoryDef>
+    <defName>MoreGeneEfficiency</defName>
+    <label>Efficiency(More genes)</label>
+    <displayPriorityInXenotype>-1240</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
     <defName>MoreGeneMiscellaneous</defName>
     <label>Miscellaneous(More genes)</label>
-    <displayPriorityInXenotype>-1240</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1250</displayPriorityInXenotype>
   </GeneCategoryDef>
 </Defs>
