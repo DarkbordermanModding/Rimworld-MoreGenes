@@ -21,7 +21,7 @@
       </li>
     </forcedTraits>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>3</biostatMet>
+    <biostatMet>5</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneMoodBase">
@@ -38,7 +38,7 @@
       </li>
     </forcedTraits>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>2</biostatMet>
+    <biostatMet>3</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneMoodBase">
@@ -54,7 +54,7 @@
         <degree>1</degree>
       </li>
     </forcedTraits>
-    <biostatCpx>1</biostatCpx>
+    <biostatCpx>2</biostatCpx>
     <biostatMet>-1</biostatMet>
   </GeneDef>
 
@@ -71,7 +71,7 @@
         <degree>2</degree>
       </li>
     </forcedTraits>
-    <biostatCpx>1</biostatCpx>
+    <biostatCpx>3</biostatCpx>
     <biostatMet>-2</biostatMet>
   </GeneDef>
 </Defs>
