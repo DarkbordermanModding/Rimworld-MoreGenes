@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneAnomalyBase" Abstract="True">
+    <displayCategory MayRequire="Ludeon.RimWorld.Anomaly">MoreGeneAnomaly</displayCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneAnomalyBase">
+    <defName>PerfectMemory</defName>
+    <label>Perfect Memory</label>
+    <labelShortAdj>Perfect Memory</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <def>PerfectMemory</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-4</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneAnomalyBase">
+    <defName>Occultist</defName>
+    <label>Occultist</label>
+    <labelShortAdj>Occultist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Skills/Intellectual/Strong</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <forcedTraits>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <def>Occultist</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-3</biostatMet>
+  </GeneDef>
+</Defs>

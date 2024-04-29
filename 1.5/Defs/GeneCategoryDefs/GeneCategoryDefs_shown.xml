@@ -79,9 +79,15 @@
     <displayPriorityInXenotype>-1240</displayPriorityInXenotype>
   </GeneCategoryDef>
 
+  <GeneCategoryDef MayRequire="Ludeon.RimWorld.Anomaly">
+    <defName>MoreGeneAnomaly</defName>
+    <label>Anomaly traits(More genes)</label>
+    <displayPriorityInXenotype>-1250</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
   <GeneCategoryDef>
     <defName>MoreGeneMiscellaneous</defName>
     <label>Miscellaneous(More genes)</label>
-    <displayPriorityInXenotype>-1250</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1260</displayPriorityInXenotype>
   </GeneCategoryDef>
 </Defs>

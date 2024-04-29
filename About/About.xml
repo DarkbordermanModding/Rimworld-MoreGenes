@@ -19,5 +19,6 @@
     <li>brrainz.harmony</li>
     <li>Ludeon.Rimworld</li>
     <li>Ludeon.Rimworld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
   </loadAfter>
 </ModMetaData>
