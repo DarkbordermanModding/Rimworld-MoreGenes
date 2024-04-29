@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneMoodBase" Abstract="True">
+    <displayCategory>MoreGeneMood</displayCategory>
+    <exclusionTags>
+      <li>MoreGeneMood</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoodBase">
+    <defName>MoodDepressive</defName>
+    <label>Depressive</label>
+    <labelShortAdj>Depressive</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>NaturalMood</def>
+        <degree>-2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoodBase">
+    <defName>MoodPessimist</defName>
+    <label>Pessimist</label>
+    <labelShortAdj>Pessimist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>NaturalMood</def>
+        <degree>-1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>2</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoodBase">
+    <defName>MoodOptimist</defName>
+    <label>Optimist</label>
+    <labelShortAdj>Optimist</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Optimist</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>NaturalMood</def>
+        <degree>1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoodBase">
+    <defName>MoodSaguine</defName>
+    <label>Saguine</label>
+    <labelShortAdj>Saguine</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>NaturalMood</def>
+        <degree>2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+</Defs>

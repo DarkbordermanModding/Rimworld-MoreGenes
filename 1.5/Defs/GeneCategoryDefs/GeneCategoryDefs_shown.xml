@@ -38,33 +38,39 @@
   </GeneCategoryDef>
 
   <GeneCategoryDef>
+    <defName>MoreGeneMood</defName>
+    <label>Mood(More genes)</label>
+    <displayPriorityInXenotype>-1170</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
     <defName>Relationship</defName>
     <label>Relationship(More genes)</label>
-    <displayPriorityInXenotype>-1170</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1180</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Works</defName>
     <label>Works(More genes)</label>
-    <displayPriorityInXenotype>-1180</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1190</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Living</defName>
     <label>Living(More genes)</label>
-    <displayPriorityInXenotype>-1190</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1200</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Neurotic</defName>
     <label>Neurotic(More genes)</label>
-    <displayPriorityInXenotype>-1200</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1210</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>Speed</defName>
     <label>Walk Speed(More genes)</label>
-    <displayPriorityInXenotype>-1210</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1220</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
