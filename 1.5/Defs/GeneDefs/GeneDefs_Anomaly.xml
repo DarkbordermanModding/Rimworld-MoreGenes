@@ -35,4 +35,68 @@
     <biostatCpx>2</biostatCpx>
     <biostatMet>-3</biostatMet>
   </GeneDef>
+
+  <GeneDef ParentName="GeneAnomalyBase">
+    <defName>Joyous</defName>
+    <label>Joyous</label>
+    <labelShortAdj>Joyous</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <forcedTraits>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <def>Joyous</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneAnomalyBase">
+    <defName>BodyMastery</defName>
+    <label>Body Mastery</label>
+    <labelShortAdj>Body Mastery</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Resurrect</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <forcedTraits>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <def>BodyMastery</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>20</biostatCpx>
+    <biostatMet>-16</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneAnomalyBase">
+    <defName>Disturbing</defName>
+    <label>Disturbing</label>
+    <labelShortAdj>Disturbing</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <forcedTraits>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <def>Disturbing</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneAnomalyBase">
+    <defName>VoidFascination</defName>
+    <label>Void Fascination</label>
+    <labelShortAdj>Void Fascination</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_FireTerror</iconPath>
+    <displayOrderInCategory>60</displayOrderInCategory>
+    <forcedTraits>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <def>VoidFascination</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>2</biostatMet>
+  </GeneDef>
 </Defs>
