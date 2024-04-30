@@ -8,7 +8,7 @@
     <displayCategory>MoreGeneMiscellaneous</displayCategory>
     <defName>HealthTough</defName>
     <label>Tough</label>
-    <description>Carriers of this gene take less injuries than others from the same damage. They have thickened, densified bones, nearly-solid ribcages, and strengthened binding factors in joints and flesh.</description>
+    <description>Carriers of this gene have "Tough" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
     <displayOrderInCategory>15</displayOrderInCategory>
     <forcedTraits>
