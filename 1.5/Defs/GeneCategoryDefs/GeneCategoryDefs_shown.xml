@@ -68,7 +68,7 @@
   </GeneCategoryDef>
 
   <GeneCategoryDef>
-    <defName>Speed</defName>
+    <defName>MoreGeneWalkSpeed</defName>
     <label>Walk Speed(More genes)</label>
     <displayPriorityInXenotype>-1230</displayPriorityInXenotype>
   </GeneCategoryDef>

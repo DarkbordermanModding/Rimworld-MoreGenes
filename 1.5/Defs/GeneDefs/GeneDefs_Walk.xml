@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="MoreGeneWalkSpeedBase" Abstract="True">
+    <displayCategory>MoreGeneWalkSpeed</displayCategory>
+    <exclusionTags>
+      <li>MoreGeneWalkSpeed</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneWalkSpeedBase">
+    <defName>SlowPoke</defName>
+    <label>SlowPoke</label>
+    <labelShortAdj>SlowPoke</labelShortAdj>
+    <description>Carriers of this gene have "SlowPoke" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>SpeedOffset</def>
+        <degree>-1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneWalkSpeedBase">
+    <defName>NeutralWalkSpeed</defName>
+    <label>Neutral walk speed</label>
+    <labelShortAdj>Neutral walk speed</labelShortAdj>
+    <description>Supresses traits that related to walk speed.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <suppressedTraits>
+      <li>
+        <def>SpeedOffset</def>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <def>SpeedOffset</def>
+        <degree>1</degree>
+      </li>
+      <li>
+        <def>SpeedOffset</def>
+        <degree>2</degree>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneWalkSpeedBase">
+    <defName>FastWalker</defName>
+    <label>Fast walker</label>
+    <labelShortAdj>Fast walker</labelShortAdj>
+    <description>Carriers of this gene have "Fast walker" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_Optimist</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>SpeedOffset</def>
+        <degree>1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-3</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="MoreGeneWalkSpeedBase">
+    <defName>Jogger</defName>
+    <label>Jogger</label>
+    <labelShortAdj>Jogger</labelShortAdj>
+    <description>Carriers of this gene have "Saguine" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>SpeedOffset</def>
+        <degree>2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-5</biostatMet>
+  </GeneDef>
+</Defs>
