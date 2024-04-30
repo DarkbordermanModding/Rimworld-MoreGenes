@@ -74,4 +74,33 @@
     <biostatCpx>1</biostatCpx>
     <biostatMet>-2</biostatMet>
   </GeneDef>
+
+  <GeneDef ParentName="GeneMentalBase">
+    <defName>NeutralNerves</defName>
+    <label>Neutral mental thresholds</label>
+    <labelShortAdj>Neutral mental thresholds</labelShortAdj>
+    <description>Supresses traits that related to mental thresholds.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <suppressedTraits>
+      <li>
+        <def>Nerves</def>
+        <degree>-2</degree>
+      </li>
+      <li>
+        <def>Nerves</def>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <def>Nerves</def>
+        <degree>1</degree>
+      </li>
+      <li>
+        <def>Nerves</def>
+        <degree>2</degree>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
 </Defs>

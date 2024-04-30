@@ -77,8 +77,8 @@
 
   <GeneDef ParentName="GeneWorksBase">
     <defName>NeutralWork</defName>
-    <label>Neutral Industrious</label>
-    <labelShortAdj>Neutral Industrious</labelShortAdj>
+    <label>Neutral work speeds</label>
+    <labelShortAdj>Neutral work speeds</labelShortAdj>
     <description>Supresses traits that related to work speeds.</description>
     <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
     <displayOrderInCategory>50</displayOrderInCategory>
