@@ -8,63 +8,12 @@
   </GeneDef>
 
   <GeneDef ParentName="GeneBeautyBase">
-    <defName>BeautyBeautiful</defName>
-    <label>Beautiful</label>
-    <labelShortAdj>Beautiful</labelShortAdj>
-    <description>Carriers of this gene have "Beautiful" trait.</description>
-    <iconPath>UI/Icons/Genes/Gene_Beautiful</iconPath>
-    <displayOrderInCategory>10</displayOrderInCategory>
-    <forcedTraits>
-      <li>
-        <def>Beauty</def>
-        <degree>2</degree>
-      </li>
-    </forcedTraits>
-    <biostatCpx>1</biostatCpx>
-    <biostatMet>-1</biostatMet>
-  </GeneDef>
-
-  <GeneDef ParentName="GeneBeautyBase">
-    <defName>BeautyPretty</defName>
-    <label>Pretty</label>
-    <labelShortAdj>Pretty</labelShortAdj>
-    <description>Carriers of this gene have "Pretty" trait.</description>
-    <iconPath>UI/Icons/Genes/Gene_Pretty</iconPath>
-    <displayOrderInCategory>20</displayOrderInCategory>
-    <forcedTraits>
-      <li>
-        <def>Beauty</def>
-        <degree>1</degree>
-      </li>
-    </forcedTraits>
-    <biostatCpx>1</biostatCpx>
-    <biostatMet>-1</biostatMet>
-  </GeneDef>
-
-  <GeneDef ParentName="GeneBeautyBase">
-    <defName>Ugly</defName>
-    <label>Ugly</label>
-    <labelShortAdj>Ugly</labelShortAdj>
-    <description>Carriers of this gene have "Ugly" trait.</description>
-    <iconPath>UI/Icons/Genes/Gene_Ugly</iconPath>
-    <displayOrderInCategory>30</displayOrderInCategory>
-    <forcedTraits>
-      <li>
-        <def>Beauty</def>
-        <degree>-1</degree>
-      </li>
-    </forcedTraits>
-    <biostatCpx>1</biostatCpx>
-    <biostatMet>1</biostatMet>
-  </GeneDef>
-
-  <GeneDef ParentName="GeneBeautyBase">
     <defName>StaggeringlyUgly</defName>
     <label>StaggeringlyUgly</label>
     <labelShortAdj>StaggeringlyUgly</labelShortAdj>
     <description>Carriers of this gene have "Staggeringly Ugly" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_StaggeringlyUgly</iconPath>
-    <displayOrderInCategory>40</displayOrderInCategory>
+    <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
       <li>
         <def>Beauty</def>
@@ -76,12 +25,29 @@
   </GeneDef>
 
   <GeneDef ParentName="GeneBeautyBase">
+    <defName>Ugly</defName>
+    <label>Ugly</label>
+    <labelShortAdj>Ugly</labelShortAdj>
+    <description>Carriers of this gene have "Ugly" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_Ugly</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Beauty</def>
+        <degree>-1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBeautyBase">
     <defName>NeutralBeauty</defName>
     <label>Neutral Beauty</label>
     <labelShortAdj>Neutral Beauty</labelShortAdj>
     <description>Supresses traits that related to beauty.</description>
     <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
-    <displayOrderInCategory>50</displayOrderInCategory>
+    <displayOrderInCategory>30</displayOrderInCategory>
     <suppressedTraits>
       <li>
         <def>Beauty</def>
@@ -102,5 +68,39 @@
     </suppressedTraits>
     <biostatCpx>1</biostatCpx>
     <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBeautyBase">
+    <defName>BeautyPretty</defName>
+    <label>Pretty</label>
+    <labelShortAdj>Pretty</labelShortAdj>
+    <description>Carriers of this gene have "Pretty" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_Pretty</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Beauty</def>
+        <degree>1</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneBeautyBase">
+    <defName>BeautyBeautiful</defName>
+    <label>Beautiful</label>
+    <labelShortAdj>Beautiful</labelShortAdj>
+    <description>Carriers of this gene have "Beautiful" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_Beautiful</iconPath>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Beauty</def>
+        <degree>2</degree>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
   </GeneDef>
 </Defs>

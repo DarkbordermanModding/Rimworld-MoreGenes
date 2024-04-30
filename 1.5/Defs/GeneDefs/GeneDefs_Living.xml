@@ -8,23 +8,19 @@
   </GeneDef>
 
   <GeneDef ParentName="GeneLivingBase">
-    <defName>Ascetic</defName>
-    <label>Ascetic</label>
-    <labelShortAdj>Ascetic</labelShortAdj>
-    <description>Carriers of this gene have "Ascetic" trait.</description>
+    <defName>Jealous</defName>
+    <label>Jealous</label>
+    <labelShortAdj>Jealous</labelShortAdj>
+    <description>Carriers of this gene have "Jealous" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
       <li>
-        <def>Ascetic</def>
+        <def>Jealous</def>
       </li>
     </forcedTraits>
-    <exclusionTags>
-      <li>Living</li>
-      <li>Gourmand</li>
-    </exclusionTags>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>-1</biostatMet>
+    <biostatMet>2</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneLivingBase">
@@ -41,22 +37,6 @@
     </forcedTraits>
     <biostatCpx>1</biostatCpx>
     <biostatMet>1</biostatMet>
-  </GeneDef>
-
-  <GeneDef ParentName="GeneLivingBase">
-    <defName>Jealous</defName>
-    <label>Jealous</label>
-    <labelShortAdj>Jealous</labelShortAdj>
-    <description>Carriers of this gene have "Jealous" trait.</description>
-    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
-    <displayOrderInCategory>30</displayOrderInCategory>
-    <forcedTraits>
-      <li>
-        <def>Jealous</def>
-      </li>
-    </forcedTraits>
-    <biostatCpx>1</biostatCpx>
-    <biostatMet>2</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneLivingBase">
@@ -86,5 +66,25 @@
     </suppressedTraits>
     <biostatCpx>1</biostatCpx>
     <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneLivingBase">
+    <defName>Ascetic</defName>
+    <label>Ascetic</label>
+    <labelShortAdj>Ascetic</labelShortAdj>
+    <description>Carriers of this gene have "Ascetic" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Ascetic</def>
+      </li>
+    </forcedTraits>
+    <exclusionTags>
+      <li>Living</li>
+      <li>Gourmand</li>
+    </exclusionTags>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
   </GeneDef>
 </Defs>
