@@ -48,20 +48,13 @@
     <displayOrderInCategory>30</displayOrderInCategory>
     <suppressedTraits>
       <li>
-        <def>NaturalMood</def>
-        <degree>-2</degree>
+        <def>Jealous</def>
       </li>
       <li>
-        <def>NaturalMood</def>
-        <degree>-1</degree>
+        <def>Greedy</def>
       </li>
       <li>
-        <def>NaturalMood</def>
-        <degree>1</degree>
-      </li>
-      <li>
-        <def>NaturalMood</def>
-        <degree>2</degree>
+        <def>Ascetic</def>
       </li>
     </suppressedTraits>
     <biostatCpx>1</biostatCpx>
