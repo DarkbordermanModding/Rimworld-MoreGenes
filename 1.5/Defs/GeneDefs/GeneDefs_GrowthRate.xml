@@ -8,7 +8,7 @@
     <defName>VeryFastGrowthRate</defName>
     <label>Very fast growth rate</label>
     <labelShortAdj>Very fast growth rate</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene grow very fast in their childhood.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <exclusionTags>
@@ -29,7 +29,7 @@
     <defName>FastGrowthRate</defName>
     <label>Fast growth rate</label>
     <labelShortAdj>Fast growth rate</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene grow relatively fast in their childhood.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <exclusionTags>

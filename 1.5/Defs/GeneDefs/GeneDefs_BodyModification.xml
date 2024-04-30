@@ -11,7 +11,7 @@
     <defName>BodyModificationBodyPurist</defName>
     <label>Body Purist</label>
     <labelShortAdj>Body Purist</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene will have "Body Purist" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
@@ -27,7 +27,7 @@
     <defName>BodyModificationTranshumanist</defName>
     <label>Transhumanist</label>
     <labelShortAdj>Transhumanist</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene will have "Transhumanist" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <forcedTraits>

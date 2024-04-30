@@ -11,7 +11,7 @@
     <defName>LifespanVeryShort</defName>
     <label>Very short lifespan</label>
     <labelShortAdj>Very short lifespan</labelShortAdj>
-    <description>Carrier of this gene has very short lifespan.</description>
+    <description>Carriers of this gene have very short lifespan.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <statFactors>
@@ -25,7 +25,7 @@
     <defName>LifespanShort</defName>
     <label>Short lifespan</label>
     <labelShortAdj>Short lifespan</labelShortAdj>
-    <description>Carrier of this gene has short lifespan.</description>
+    <description>Carriers of this gene have short lifespan.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <statFactors>
@@ -39,7 +39,7 @@
     <defName>LifespanLong</defName>
     <label>Long lifespan</label>
     <labelShortAdj>Long lifespan</labelShortAdj>
-    <description>Carrier of this gene has long lifespan.</description>
+    <description>Carriers of this gene have long lifespan.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <statFactors>
@@ -53,7 +53,7 @@
     <defName>LifespanVeryLong</defName>
     <label>Very long lifespan</label>
     <labelShortAdj>Very long lifespan</labelShortAdj>
-    <description>Carrier of this gene has very long lifespan.</description>
+    <description>Carriers of this gene have very long lifespan.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     <statFactors>
@@ -67,7 +67,7 @@
     <defName>LifespanExtremelyLong</defName>
     <label>Extremely long lifespan</label>
     <labelShortAdj>Extremely long lifespan</labelShortAdj>
-    <description>Carrier of this gene has extremely long lifespan.</description>
+    <description>Carriers of this gene have extremely long lifespan.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>50</displayOrderInCategory>
     <statFactors>
