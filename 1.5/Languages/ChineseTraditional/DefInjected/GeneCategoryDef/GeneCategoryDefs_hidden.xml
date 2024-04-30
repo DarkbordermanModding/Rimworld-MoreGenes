@@ -3,25 +3,25 @@
   <!-- EN: WeaponPreference -->
   <WeaponPreference.label>武器偏好</WeaponPreference.label>
   <!-- EN: VerbalConflict -->
-  <VerbalConflict.label>言语冲突</VerbalConflict.label>
+  <VerbalConflict.label>言語衝突</VerbalConflict.label>
   <!-- EN: Psychopath -->
-  <Psychopath.label>心理变态</Psychopath.label>
+  <Psychopath.label>心理變態</Psychopath.label>
   <!-- EN: DislikesMen -->
-  <DislikesMen.label>厌恶男性</DislikesMen.label>
+  <DislikesMen.label>厭男</DislikesMen.label>
   <!-- EN: DislikesWomen -->
-  <DislikesWomen.label>厌恶女性</DislikesWomen.label>
+  <DislikesWomen.label>厭女</DislikesWomen.label>
   <!-- EN: BodyStrength -->
-  <BodyStrength.label>身体强度</BodyStrength.label>
+  <BodyStrength.label>身體強度</BodyStrength.label>
   <!-- EN: Gourmand -->
-  <Gourmand.label>贪食者</Gourmand.label>
+  <Gourmand.label>貪吃</Gourmand.label>
   <!-- EN: YouthAging -->
-  <YouthAging.label>儿童成长</YouthAging.label>
+  <YouthAging.label>幼年成長</YouthAging.label>
   <!-- EN: AdultAging -->
-  <AdultAging.label>衰老</AdultAging.label>
+  <AdultAging.label>成年成長</AdultAging.label>
   <!-- EN: Pyromaniac -->
-  <Pyromaniac.label>纵火狂</Pyromaniac.label>
+  <Pyromaniac.label>縱火狂</Pyromaniac.label>
   <!-- EN: PsychicTraits -->
-  <PsychicTraits.label>心灵敏感度</PsychicTraits.label>
+  <PsychicTraits.label>心靈敏感</PsychicTraits.label>
   <!-- EN: SlowLearner -->
-  <SlowLearner.label>脑子慢</SlowLearner.label>
+  <SlowLearner.label>緩慢學習</SlowLearner.label>
 </LanguageData>
