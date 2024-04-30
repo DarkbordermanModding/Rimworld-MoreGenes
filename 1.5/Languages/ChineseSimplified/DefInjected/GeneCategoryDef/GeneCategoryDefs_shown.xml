@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN: Body size(More genes) -->
-  <BodySize.label>体型</BodySize.label>
+  <BodySize.label>体型(更多基因)</BodySize.label>
   <!-- EN: Body Modification(More genes) -->
-  <BodyModification.label>身体改造</BodyModification.label>
+  <BodyModification.label>身体改造(更多基因)</BodyModification.label>
   <!-- EN: Growth rate(More genes) -->
-  <GrowthRate.label>成长速度</GrowthRate.label>
+  <GrowthRate.label>成长速度(更多基因)</GrowthRate.label>
   <!-- EN: Lifespan(More genes) -->
-  <Lifespan.label>寿命</Lifespan.label>
+  <Lifespan.label>寿命(更多基因)</Lifespan.label>
   <!-- EN: Mental thresholds(More genes) -->
-  <Mental.label>意志</Mental.label>
+  <Mental.label>意志(更多基因)</Mental.label>
   <!-- EN: Relationship(More genes) -->
-  <Relationship.label>人际关系</Relationship.label>
+  <Relationship.label>人际关系(更多基因)</Relationship.label>
   <!-- EN: Works(More genes) -->
-  <Works.label>工作效率</Works.label>
+  <Works.label>工作效率(更多基因)</Works.label>
   <!-- EN: Living(More genes) -->
-  <Living.label>期望</Living.label>
+  <Living.label>生活水平(更多基因)</Living.label>
   <!-- EN: Neurotic(More genes) -->
-  <Neurotic.label>神经质</Neurotic.label>
+  <Neurotic.label>神经质(更多基因)</Neurotic.label>
   <!-- EN: Walk Speed(More genes) -->
-  <Speed.label>移动速度</Speed.label>
+  <Speed.label>移动速度(更多基因)</Speed.label>
   <!-- EN: Beauty(More genes) -->
-  <MoreGeneBeauty.label>魅力</MoreGeneBeauty.label>
+  <MoreGeneBeauty.label>魅力(更多基因)</MoreGeneBeauty.label>
   <!-- EN: Miscellaneous(More genes) -->
-  <MoreGeneMiscellaneous.label>混杂</MoreGeneMiscellaneous.label>
+  <MoreGeneMiscellaneous.label>雜項(更多基因)</MoreGeneMiscellaneous.label>
 </LanguageData>
