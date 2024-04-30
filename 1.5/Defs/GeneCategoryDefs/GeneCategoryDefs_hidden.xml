@@ -73,8 +73,8 @@
 
   <!-- Too smart and slow learner trait blocks -->
   <GeneCategoryDef>
-    <defName>SlowLearner</defName>
-    <label>SlowLearner</label>
+    <defName>TooSmart</defName>
+    <label>TooSmart</label>
     <displayPriorityInXenotype>-1100</displayPriorityInXenotype>
   </GeneCategoryDef>
 </Defs>

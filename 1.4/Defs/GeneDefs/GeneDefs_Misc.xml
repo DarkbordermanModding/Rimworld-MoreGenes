@@ -208,7 +208,7 @@
     <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <exclusionTags>
-      <li>SlowLearner</li>
+      <li>TooSmart</li>
     </exclusionTags>
     <forcedTraits>
       <li>

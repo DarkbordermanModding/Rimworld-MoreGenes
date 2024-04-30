@@ -5,7 +5,7 @@
     <value>
       <exclusionTags>
         <li>Learning</li>
-        <li>SlowLearner</li>
+        <li>TooSmart</li>
       </exclusionTags>
     </value>
   </Operation>
@@ -14,7 +14,7 @@
     <value>
       <exclusionTags>
         <li>Learning</li>
-        <li>SlowLearner</li>
+        <li>TooSmart</li>
       </exclusionTags>
     </value>
   </Operation>

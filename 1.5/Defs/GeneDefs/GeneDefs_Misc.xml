@@ -208,7 +208,7 @@
     <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <exclusionTags>
-      <li>SlowLearner</li>
+      <li>TooSmart</li>
     </exclusionTags>
     <forcedTraits>
       <li>
@@ -217,6 +217,26 @@
     </forcedTraits>
     <biostatCpx>1</biostatCpx>
     <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <!-- Fast Learner -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>FastLearner</defName>
+    <label>Fast learner</label>
+    <labelShortAdj>Fast learner</labelShortAdj>
+    <description>Carriers of this gene have "Fast learner" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>TooSmart</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>FastLearner</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
   </GeneDef>
 
   <!-- Nudist -->
