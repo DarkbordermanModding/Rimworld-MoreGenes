@@ -11,7 +11,7 @@
     <defName>MoodDepressive</defName>
     <label>Depressive</label>
     <labelShortAdj>Depressive</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Depressive" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
@@ -28,7 +28,7 @@
     <defName>MoodPessimist</defName>
     <label>Pessimist</label>
     <labelShortAdj>Pessimist</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Pessimist" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <forcedTraits>
@@ -45,7 +45,7 @@
     <defName>MoodOptimist</defName>
     <label>Optimist</label>
     <labelShortAdj>Optimist</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Optimist" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Optimist</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <forcedTraits>
@@ -62,7 +62,7 @@
     <defName>MoodSaguine</defName>
     <label>Saguine</label>
     <labelShortAdj>Saguine</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Saguine" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     <forcedTraits>

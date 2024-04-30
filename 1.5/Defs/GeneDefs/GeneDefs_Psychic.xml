@@ -11,7 +11,7 @@
     <defName>PsychicallySensitive</defName>
     <label>Psychically sensitive</label>
     <labelShortAdj>Psychically sensitive</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Psychically sensitive" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_EnhancedPsychicAbility</iconPath>
     <displayOrderInCategory>16</displayOrderInCategory>
     <forcedTraits>
@@ -28,7 +28,7 @@
     <defName>PsychicallyHypersensitive</defName>
     <label>Psychically hypersensitive</label>
     <labelShortAdj>Psychically hypersensitive</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Psychically hypersensitive" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_ExtremePsychicAbility</iconPath>
     <displayOrderInCategory>21</displayOrderInCategory>
     <forcedTraits>

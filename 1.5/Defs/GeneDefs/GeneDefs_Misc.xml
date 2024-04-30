@@ -24,7 +24,7 @@
     <defName>NightOwl</defName>
     <label>Night owl</label>
     <labelShortAdj>Night owl</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Night owl" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_GrayEyes</iconPath>
     <displayOrderInCategory>0</displayOrderInCategory>
     <forcedTraits>
@@ -40,7 +40,7 @@
     <defName>Undergrounder</defName>
     <label>Undergrounder</label>
     <labelShortAdj>Undergrounder</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Undergrounder" trait.</description>
     <iconPath>UI/Icons/Genes/Skills/Mining/Strong</iconPath>
     <displayOrderInCategory>1</displayOrderInCategory>
     <forcedTraits>
@@ -73,7 +73,7 @@
     <defName>Masochist</defName>
     <label>Masochist</label>
     <labelShortAdj>Masochist</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Masochist" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
     <displayOrderInCategory>3</displayOrderInCategory>
     <forcedTraits>
@@ -90,7 +90,7 @@
     <defName>GreatMemory</defName>
     <label>Great Memory</label>
     <labelShortAdj>Great Memory</labelShortAdj>
-    <description>Carriers of this gene have excellent memories.</description>
+    <description>Carriers of this gene have "Great Memory" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
     <displayOrderInCategory>60</displayOrderInCategory>
     <forcedTraits>
@@ -107,7 +107,7 @@
     <defName>Cannibal</defName>
     <label>Cannibal</label>
     <labelShortAdj>Cannibal</labelShortAdj>
-    <description>Carriers of this gene have instinct to human meat.</description>
+    <description>Carriers of this gene have "Cannibal" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Bloodfeeder</iconPath>
     <displayOrderInCategory>65</displayOrderInCategory>
     <forcedTraits>
@@ -124,7 +124,7 @@
     <defName>Aggression_Bloodlust</defName>
     <label>Bloodlust</label>
     <labelShortAdj>Bloodlust</labelShortAdj>
-    <description>Carriers of this gene have instinct to kill others.</description>
+    <description>Carriers of this gene have "Bloodlust" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
     <displayOrderInCategory>90</displayOrderInCategory>
     <forcedTraits>
@@ -141,7 +141,7 @@
     <defName>Pyromaniac</defName>
     <label>Pyromaniac</label>
     <labelShortAdj>Pyromaniac</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Pyromaniac" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_FireWeakness</iconPath>
     <displayOrderInCategory>100</displayOrderInCategory>
     <forcedTraits>
@@ -161,7 +161,7 @@
     <defName>Psychopath</defName>
     <label>Psychopath</label>
     <labelShortAdj>Psychopath</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Psychopath" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Killthirst</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <exclusionTags>
@@ -183,7 +183,7 @@
     <defName>Gourmand</defName>
     <label>Gourmand</label>
     <labelShortAdj>Gourmand</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Gourmand" trait.</description>
     <iconPath>UI/Icons/Genes/Skills/Cooking/Strong</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <exclusionTags>
@@ -204,7 +204,7 @@
     <defName>TooSmart</defName>
     <label>Too smart</label>
     <labelShortAdj>Too smart</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Too smart" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <exclusionTags>
@@ -224,7 +224,7 @@
     <defName>Nudist</defName>
     <label>Nudist</label>
     <labelShortAdj>Nudist</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Nudist" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
@@ -241,7 +241,7 @@
     <defName>QuickSleeper</defName>
     <label>Quick sleeper</label>
     <labelShortAdj>Quick sleeper</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Quick sleeper" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_QuickSleeper</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
@@ -258,7 +258,7 @@
     <defName>TorturedArtist</defName>
     <label>Tortured artist</label>
     <labelShortAdj>Tortured artist</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Tortured artist" trait.</description>
     <iconPath>UI/Icons/Genes/Skills/Artistic/Strong</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>

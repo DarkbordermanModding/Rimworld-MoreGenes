@@ -11,7 +11,7 @@
     <defName>Neurotic</defName>
     <label>Neurotic</label>
     <labelShortAdj>Neurotic</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Neurotic" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
@@ -28,7 +28,7 @@
     <defName>VeryNeurotic</defName>
     <label>Very neurotic</label>
     <labelShortAdj>Very neurotic</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Very neurotic" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_HyperAggressive</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <forcedTraits>

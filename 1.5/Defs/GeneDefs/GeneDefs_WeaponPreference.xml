@@ -4,7 +4,7 @@
     <defName>Brawler</defName>
     <label>Brawler</label>
     <labelShortAdj>Brawler</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Brawler" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
     <displayCategory>Pain</displayCategory>
     <displayOrderInCategory>0</displayOrderInCategory>
@@ -25,7 +25,7 @@
     <defName>CarefulShooter</defName>
     <label>Careful shooter</label>
     <labelShortAdj>Careful shooter</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "careful shooter" trait.</description>
     <iconPath>UI/Icons/Genes/Skills/Shooting/Strong</iconPath>
     <displayOrderInCategory>0</displayOrderInCategory>
     <exclusionTags>
@@ -45,7 +45,7 @@
     <defName>TriggerHappy</defName>
     <label>Trigger-happy</label>
     <labelShortAdj>Trigger-happy</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Trigger-happy" trait.</description>
     <iconPath>UI/Icons/Genes/Skills/Shooting/Poor</iconPath>
     <displayOrderInCategory>0</displayOrderInCategory>
     <exclusionTags>
