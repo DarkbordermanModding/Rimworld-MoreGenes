@@ -59,4 +59,32 @@
     <biostatMet>2</biostatMet>
   </GeneDef>
 
+  <GeneDef ParentName="GeneLivingBase">
+    <defName>NeutralLiving</defName>
+    <label>Neutral Living</label>
+    <labelShortAdj>Neutral Living</labelShortAdj>
+    <description>Supresses traits that related to living standards.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <suppressedTraits>
+      <li>
+        <def>NaturalMood</def>
+        <degree>-2</degree>
+      </li>
+      <li>
+        <def>NaturalMood</def>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <def>NaturalMood</def>
+        <degree>1</degree>
+      </li>
+      <li>
+        <def>NaturalMood</def>
+        <degree>2</degree>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
 </Defs>
