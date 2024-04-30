@@ -12,7 +12,7 @@
     <label>SlowPoke</label>
     <labelShortAdj>SlowPoke</labelShortAdj>
     <description>Carriers of this gene have "SlowPoke" trait.</description>
-    <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
+    <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
       <li>
