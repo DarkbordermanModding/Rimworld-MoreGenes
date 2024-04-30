@@ -11,7 +11,7 @@
     <defName>BeautyBeautiful</defName>
     <label>Beautiful</label>
     <labelShortAdj>Beautiful</labelShortAdj>
-    <description>Carriers of this gene will have "Beautiful" trait.</description>
+    <description>Carriers of this gene have "Beautiful" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Beautiful</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
@@ -28,7 +28,7 @@
     <defName>BeautyPretty</defName>
     <label>Pretty</label>
     <labelShortAdj>Pretty</labelShortAdj>
-    <description>Carriers of this gene will have "Pretty" trait.</description>
+    <description>Carriers of this gene have "Pretty" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Pretty</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <forcedTraits>
@@ -45,7 +45,7 @@
     <defName>Ugly</defName>
     <label>Ugly</label>
     <labelShortAdj>Ugly</labelShortAdj>
-    <description>Carriers of this gene will have "Ugly" trait.</description>
+    <description>Carriers of this gene have "Ugly" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Ugly</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <forcedTraits>
@@ -62,7 +62,7 @@
     <defName>StaggeringlyUgly</defName>
     <label>StaggeringlyUgly</label>
     <labelShortAdj>StaggeringlyUgly</labelShortAdj>
-    <description>Carriers of this gene will have "Staggeringly Ugly" trait.</description>
+    <description>Carriers of this gene have "Staggeringly Ugly" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_StaggeringlyUgly</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     <forcedTraits>
