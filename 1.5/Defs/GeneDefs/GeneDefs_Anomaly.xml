@@ -8,7 +8,7 @@
     <defName>PerfectMemory</defName>
     <label>Perfect Memory</label>
     <labelShortAdj>Perfect Memory</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene will have "Perfect Memory" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
@@ -24,7 +24,7 @@
     <defName>Occultist</defName>
     <label>Occultist</label>
     <labelShortAdj>Occultist</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene will have "Occultist" trait.</description>
     <iconPath>UI/Icons/Genes/Skills/Intellectual/Strong</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <forcedTraits>
@@ -40,7 +40,7 @@
     <defName>Joyous</defName>
     <label>Joyous</label>
     <labelShortAdj>Joyous</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene will have "Joyous" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <forcedTraits>
@@ -56,7 +56,7 @@
     <defName>BodyMastery</defName>
     <label>Body Mastery</label>
     <labelShortAdj>Body Mastery</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene will have "Body Mastery" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Resurrect</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     <forcedTraits>
@@ -72,7 +72,7 @@
     <defName>Disturbing</defName>
     <label>Disturbing</label>
     <labelShortAdj>Disturbing</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene will have "Disturbing" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
     <displayOrderInCategory>50</displayOrderInCategory>
     <forcedTraits>
@@ -88,7 +88,7 @@
     <defName>VoidFascination</defName>
     <label>Void Fascination</label>
     <labelShortAdj>Void Fascination</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene will have "Void Fascination" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_FireTerror</iconPath>
     <displayOrderInCategory>60</displayOrderInCategory>
     <forcedTraits>
