@@ -8,7 +8,7 @@
     <defName>Abrasive</defName>
     <label>Abrasive</label>
     <labelShortAdj>Abrasive</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Abrasive" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <exclusionTags>
@@ -27,7 +27,7 @@
     <defName>AnnoyingVoice</defName>
     <label>Annoying voice</label>
     <labelShortAdj>Annoying voice</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Annoying voice" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <forcedTraits>
@@ -43,7 +43,7 @@
     <defName>CreepyBreathing</defName>
     <label>Creepy breathing</label>
     <labelShortAdj>Creepy breathing</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "creepy breathing" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     <forcedTraits>
@@ -59,7 +59,7 @@
     <defName>DislikesMen</defName>
     <label>Misandrist</label>
     <labelShortAdj>Misandrist</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Misandrist" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
     <displayOrderInCategory>50</displayOrderInCategory>
     <forcedTraits>
@@ -78,7 +78,7 @@
     <defName>DislikesWomen</defName>
     <label>Misogynist</label>
     <labelShortAdj>Misogynist</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Misogynist" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
     <displayOrderInCategory>60</displayOrderInCategory>
     <forcedTraits>

@@ -50,7 +50,7 @@
     <defName>SlowGrowthRate</defName>
     <label>Slow aging rate</label>
     <labelShortAdj>Slow aging rate</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene grow relatively slow in their adulthood.</description>
     <exclusionTags>
       <li>AdultAging</li>
     </exclusionTags>
@@ -70,7 +70,7 @@
     <defName>VerySlowGrowthRate</defName>
     <label>Very slow aging rate</label>
     <labelShortAdj>Very slow aging rate</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene grow very slow in their adulthood.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     <exclusionTags>
@@ -90,7 +90,7 @@
     <defName>ExtremelySlowGrowthRate</defName>
     <label>Extremely slow aging rate</label>
     <labelShortAdj>Extremely slow aging rate</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene grow extremely show in their adulthood.</description>
     <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
     <displayOrderInCategory>50</displayOrderInCategory>
     <exclusionTags>

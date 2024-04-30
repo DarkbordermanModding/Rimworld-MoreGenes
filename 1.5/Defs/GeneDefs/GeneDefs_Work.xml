@@ -11,7 +11,7 @@
     <defName>WorksSlothful</defName>
     <label>Slothful</label>
     <labelShortAdj>Slothful</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Slothful" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
@@ -28,7 +28,7 @@
     <defName>WorksLazy</defName>
     <label>Lazy</label>
     <labelShortAdj>Lazy</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Lazy" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <forcedTraits>
@@ -45,7 +45,7 @@
     <defName>WorksHardWorker</defName>
     <label>Hard Worker</label>
     <labelShortAdj>Hard Worker</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Hard Worker" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Optimist</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <forcedTraits>
@@ -62,7 +62,7 @@
     <defName>WorksIndustrious</defName>
     <label>Industrious</label>
     <labelShortAdj>Industrious</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Industrious" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     <forcedTraits>
