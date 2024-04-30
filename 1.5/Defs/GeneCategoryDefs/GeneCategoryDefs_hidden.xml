@@ -77,4 +77,11 @@
     <label>TooSmart</label>
     <displayPriorityInXenotype>-1100</displayPriorityInXenotype>
   </GeneCategoryDef>
+
+  <!-- Fast Learner and slow learner trait blocks -->
+  <GeneCategoryDef>
+    <defName>FastLearner</defName>
+    <label>FastLearner</label>
+    <displayPriorityInXenotype>-1110</displayPriorityInXenotype>
+  </GeneCategoryDef>
 </Defs>

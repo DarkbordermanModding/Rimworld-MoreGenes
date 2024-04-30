@@ -228,11 +228,32 @@
     <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <exclusionTags>
-      <li>TooSmart</li>
+      <li>FastLearner</li>
     </exclusionTags>
     <forcedTraits>
       <li>
         <def>FastLearner</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <!-- Slow Learner -->
+  <GeneDef ParentName="GeneMoreGeneMiscellaneousBase">
+    <defName>SlowLearner</defName>
+    <label>Slow learner</label>
+    <labelShortAdj>Slow learner</labelShortAdj>
+    <description>Carriers of this gene have "Slow learner" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_SlowLearning</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <exclusionTags>
+      <li>FastLearner</li>
+      <li>TooSmart</li>
+    </exclusionTags>
+    <forcedTraits>
+      <li>
+        <def>SlowLearner</def>
       </li>
     </forcedTraits>
     <biostatCpx>1</biostatCpx>

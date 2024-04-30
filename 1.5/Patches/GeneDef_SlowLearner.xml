@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-  <Operation Class="PatchOperationAdd">
+  <!-- <Operation Class="PatchOperationAdd">
     <xpath>Defs/GeneDef[defName="Learning_Slow"]</xpath>
     <value>
       <exclusionTags>
@@ -17,5 +17,5 @@
         <li>TooSmart</li>
       </exclusionTags>
     </value>
-  </Operation>
+  </Operation> -->
 </Patch>
