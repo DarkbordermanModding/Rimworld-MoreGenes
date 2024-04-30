@@ -11,7 +11,7 @@
     <defName>Ascetic</defName>
     <label>Ascetic</label>
     <labelShortAdj>Ascetic</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Ascetic" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
@@ -31,7 +31,7 @@
     <defName>Greedy</defName>
     <label>Greedy</label>
     <labelShortAdj>Greedy</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Greedy" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <forcedTraits>
@@ -47,7 +47,7 @@
     <defName>Jealous</defName>
     <label>Jealous</label>
     <labelShortAdj>Jealous</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Jealous" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <forcedTraits>

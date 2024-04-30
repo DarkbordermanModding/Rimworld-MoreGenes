@@ -11,7 +11,7 @@
     <defName>NerveVolatile</defName>
     <label>Volatile</label>
     <labelShortAdj>Volatile</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Volatile" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
@@ -28,7 +28,7 @@
     <defName>NerveNervous</defName>
     <label>Nervous</label>
     <labelShortAdj>Nervous</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Nervous" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
     <displayOrderInCategory>20</displayOrderInCategory>
     <forcedTraits>
@@ -43,9 +43,9 @@
 
   <GeneDef ParentName="GeneMentalBase">
     <defName>NerveSteadfast</defName>
-    <label>SteadFast</label>
-    <labelShortAdj>SteadFast</labelShortAdj>
-    <description>No description.</description>
+    <label>Steadfast</label>
+    <labelShortAdj>Steadfast</labelShortAdj>
+    <description>Carriers of this gene have "Steadfast" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Optimist</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <forcedTraits>
@@ -62,7 +62,7 @@
     <defName>NerveIronWilled</defName>
     <label>Iron Willed</label>
     <labelShortAdj>Iron Willed</labelShortAdj>
-    <description>No description.</description>
+    <description>Carriers of this gene have "Iron Willed" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     <forcedTraits>
