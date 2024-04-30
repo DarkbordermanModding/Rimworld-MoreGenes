@@ -74,4 +74,33 @@
     <biostatCpx>1</biostatCpx>
     <biostatMet>2</biostatMet>
   </GeneDef>
+
+  <GeneDef ParentName="GeneBeautyBase">
+    <defName>NeutralBeauty</defName>
+    <label>Neutral Beauty</label>
+    <labelShortAdj>Neutral Beauty</labelShortAdj>
+    <description>Supresses traits that related to beauty.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <suppressedTraits>
+      <li>
+        <def>Beauty</def>
+        <degree>-2</degree>
+      </li>
+      <li>
+        <def>Beauty</def>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <def>Beauty</def>
+        <degree>1</degree>
+      </li>
+      <li>
+        <def>Beauty</def>
+        <degree>2</degree>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
 </Defs>

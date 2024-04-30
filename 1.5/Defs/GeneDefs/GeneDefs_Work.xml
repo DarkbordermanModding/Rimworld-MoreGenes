@@ -74,4 +74,33 @@
     <biostatCpx>1</biostatCpx>
     <biostatMet>-4</biostatMet>
   </GeneDef>
+
+  <GeneDef ParentName="GeneWorksBase">
+    <defName>NeutralWork</defName>
+    <label>Neutral Industrious</label>
+    <labelShortAdj>Neutral Industrious</labelShortAdj>
+    <description>Supresses traits that related to work speeds.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <suppressedTraits>
+      <li>
+        <def>Industriousness</def>
+        <degree>-2</degree>
+      </li>
+      <li>
+        <def>Industriousness</def>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <def>Industriousness</def>
+        <degree>1</degree>
+      </li>
+      <li>
+        <def>Industriousness</def>
+        <degree>2</degree>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
 </Defs>

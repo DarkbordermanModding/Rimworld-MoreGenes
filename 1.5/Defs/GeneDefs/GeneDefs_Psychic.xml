@@ -42,10 +42,10 @@
   </GeneDef>
 
   <GeneDef ParentName="GenePsychicBase">
-    <defName>NeuralSensitivity</defName>
+    <defName>NeutralSensitivity</defName>
     <label>Neutral Sensitivity</label>
     <labelShortAdj>Neutral Sensitivity</labelShortAdj>
-    <description>Supresses traits that related to psychics</description>
+    <description>Supresses traits that related to psychics.</description>
     <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
     <displayOrderInCategory>15</displayOrderInCategory>
     <suppressedTraits>
