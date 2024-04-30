@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: resurrect -->
-  <Resurrect.label>复活</Resurrect.label>
+  <Resurrect.label>復活</Resurrect.label>
   <!-- EN: Carriers have a reserve of unique resurrector archites which can infuse a corpse, rebuild degenerated tissue and kickstart the vital processes. This brings the dead back to life - though possibly with health issues. This can only be done very rarely, and comes at a steep hemogen cost. -->
-  <Resurrect.description>这种基因的携带者储备着一个独特的复活超凡因子，可以注入尸体，重建退化的组织，并重启身体的关键机能。此举将复活死者————尽管复活时可能带有健康问题。这种能力似乎会耗尽超凡因子，原因不明，因此很少被使用。</Resurrect.description>
+  <Resurrect.description>基因攜帶者儲備着一個獨特的復活遠古因子，可以注入屍體，重建退化的組織，並重啟身體的關鍵功能。此舉將復活死者————儘管復活時可能帶有健康問題。這種能力似乎會耗盡遠古因子，原因不明，因此很少被使用。</Resurrect.description>
   <!-- EN: life -->
   <Resurrect.symbolPack.prefixSymbols.0.symbol>生命</Resurrect.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: resurrector -->
   <Resurrect.symbolPack.wholeNameSymbols.0.symbol>重生者</Resurrect.symbolPack.wholeNameSymbols.0.symbol>
-  
 </LanguageData>
