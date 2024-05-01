@@ -12,7 +12,7 @@
     <label>SlowPoke</label>
     <labelShortAdj>SlowPoke</labelShortAdj>
     <description>Carriers of this gene have "SlowPoke" trait.</description>
-    <iconPath>UI/Icons/Genes/Gene_Pessimist</iconPath>
+    <iconPath>UI/Icons/Genes/Gene_SlowMovespeed</iconPath>
     <displayOrderInCategory>10</displayOrderInCategory>
     <forcedTraits>
       <li>
@@ -54,7 +54,7 @@
     <label>Fast walker</label>
     <labelShortAdj>Fast walker</labelShortAdj>
     <description>Carriers of this gene have "Fast walker" trait.</description>
-    <iconPath>UI/Icons/Genes/Gene_Optimist</iconPath>
+    <iconPath>UI/Icons/Genes/Gene_QuickMovespeed</iconPath>
     <displayOrderInCategory>30</displayOrderInCategory>
     <forcedTraits>
       <li>
@@ -70,8 +70,8 @@
     <defName>Jogger</defName>
     <label>Jogger</label>
     <labelShortAdj>Jogger</labelShortAdj>
-    <description>Carriers of this gene have "Saguine" trait.</description>
-    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <description>Carriers of this gene have "Jogger" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_VeryQuickMovespeed</iconPath>
     <displayOrderInCategory>40</displayOrderInCategory>
     <forcedTraits>
       <li>

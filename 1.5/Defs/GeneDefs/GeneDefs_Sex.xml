@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="GeneSexualOrientationBase" Abstract="True">
+    <displayCategory>MoreGeneSexualOrientation</displayCategory>
+    <exclusionTags>
+      <li>MoreGeneSexualOrientation</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSexualOrientationBase">
+    <defName>Gay</defName>
+    <label>Gay</label>
+    <labelShortAdj>Gay</labelShortAdj>
+    <description>Carriers of this gene have "Gay" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Gay</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSexualOrientationBase">
+    <defName>Bisexual</defName>
+    <label>Bisexual</label>
+    <labelShortAdj>Bisexual</labelShortAdj>
+    <description>Carriers of this gene have "Bisexual" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Bisexual</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSexualOrientationBase">
+    <defName>Asexual</defName>
+    <label>Asexual</label>
+    <labelShortAdj>Asexual</labelShortAdj>
+    <description>Carriers of this gene have "Asexual" trait.</description>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Asexual</def>
+      </li>
+    </forcedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSexualOrientationBase">
+    <defName>NeutralSexualOrientation</defName>
+    <label>Neutral sexual orientation</label>
+    <labelShortAdj>Neutral sexual orientation</labelShortAdj>
+    <description>Supresses traits that related to sexual orientation</description>
+    <iconPath>UI/Icons/Genes/Gene_Sterile</iconPath>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <suppressedTraits>
+      <li>
+        <def>Gay</def>
+      </li>
+      <li>
+        <def>Bisexual</def>
+      </li>
+      <li>
+        <def>Asexual</def>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+  </GeneDef>
+</Defs>

@@ -85,15 +85,21 @@
     <displayPriorityInXenotype>-1250</displayPriorityInXenotype>
   </GeneCategoryDef>
 
+  <GeneCategoryDef>
+    <defName>MoreGeneSexualOrientation</defName>
+    <label>Sexual Orientation(More genes)</label>
+    <displayPriorityInXenotype>-1260</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
   <GeneCategoryDef MayRequire="Ludeon.RimWorld.Anomaly">
     <defName>MoreGeneAnomaly</defName>
     <label>Anomaly traits(More genes)</label>
-    <displayPriorityInXenotype>-1260</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1270</displayPriorityInXenotype>
   </GeneCategoryDef>
 
   <GeneCategoryDef>
     <defName>MoreGeneMiscellaneous</defName>
     <label>Miscellaneous(More genes)</label>
-    <displayPriorityInXenotype>-1270</displayPriorityInXenotype>
+    <displayPriorityInXenotype>-1280</displayPriorityInXenotype>
   </GeneCategoryDef>
 </Defs>
