@@ -14,6 +14,9 @@
     <exclusionTags>
       <li>YouthAging</li>
     </exclusionTags>
+    <statFactors>
+      <GlobalLearningFactor>0.25</GlobalLearningFactor>
+    </statFactors>
     <biologicalAgeTickFactorFromAgeCurve>
       <points>
         <li>(3, 15)</li>
@@ -22,7 +25,7 @@
       </points>
     </biologicalAgeTickFactorFromAgeCurve>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>-6</biostatMet>
+    <biostatMet>-2</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneGrowthRateBase">
@@ -35,6 +38,9 @@
     <exclusionTags>
       <li>YouthAging</li>
     </exclusionTags>
+    <statFactors>
+      <GlobalLearningFactor>0.15</GlobalLearningFactor>
+    </statFactors>
     <biologicalAgeTickFactorFromAgeCurve>
       <points>
         <li>(3, 9)</li>
@@ -43,7 +49,7 @@
       </points>
     </biologicalAgeTickFactorFromAgeCurve>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>-3</biostatMet>
+    <biostatMet>-1</biostatMet>
   </GeneDef>
 
   <GeneDef ParentName="GeneGrowthRateBase">
