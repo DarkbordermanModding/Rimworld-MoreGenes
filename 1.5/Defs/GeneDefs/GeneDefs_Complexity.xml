@@ -85,7 +85,7 @@
     <defName>MoreGeneEfficiencyBasePositive1</defName>
     <label>Efficiency(1)</label>
     <labelShortAdj>Efficiency(1)</labelShortAdj>
-    <description>Carriers of this gene have higher metabolic efficiency in exchange for incrased complexity.</description>
+    <description>Carriers of this gene have higher metabolic efficiency in exchange for increased complexity.</description>
     <iconPath>UI/Icons/Genes/Gene_MildCellInstability</iconPath>
     <displayOrderInCategory>80</displayOrderInCategory>
     <biostatCpx>1</biostatCpx>
@@ -96,7 +96,7 @@
     <defName>MoreGeneEfficiencyBasePositive2</defName>
     <label>Efficiency(2)</label>
     <labelShortAdj>Efficiency(2)</labelShortAdj>
-    <description>Carriers of this gene have higher metabolic efficiency in exchange for incrased complexity.</description>
+    <description>Carriers of this gene have higher metabolic efficiency in exchange for increased complexity.</description>
     <iconPath>UI/Icons/Genes/Gene_MildCellInstability</iconPath>
     <displayOrderInCategory>90</displayOrderInCategory>
     <biostatCpx>2</biostatCpx>
@@ -107,7 +107,7 @@
     <defName>MoreGeneEfficiencyBasePositive3</defName>
     <label>Efficiency(3)</label>
     <labelShortAdj>Efficiency(3)</labelShortAdj>
-    <description>Carriers of this gene have higher metabolic efficiency in exchange for incrased complexity.</description>
+    <description>Carriers of this gene have higher metabolic efficiency in exchange for increased complexity.</description>
     <iconPath>UI/Icons/Genes/Gene_MildCellInstability</iconPath>
     <displayOrderInCategory>100</displayOrderInCategory>
     <biostatCpx>3</biostatCpx>
@@ -118,7 +118,7 @@
     <defName>MoreGeneEfficiencyBasePositive4</defName>
     <label>Efficiency(4)</label>
     <labelShortAdj>Efficiency(4)</labelShortAdj>
-    <description>Carriers of this gene have higher metabolic efficiency in exchange for incrased complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <description>Carriers of this gene have higher metabolic efficiency in exchange for increased complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
     <iconPath>UI/Icons/Genes/Gene_MajorCellInstability</iconPath>
     <displayOrderInCategory>110</displayOrderInCategory>
     <biostatCpx>4</biostatCpx>
@@ -129,7 +129,7 @@
     <defName>MoreGeneEfficiencyBasePositive5</defName>
     <label>Efficiency(5)</label>
     <labelShortAdj>Efficiency(5)</labelShortAdj>
-    <description>Carriers of this gene have higher metabolic efficiency in exchange for incrased complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <description>Carriers of this gene have higher metabolic efficiency in exchange for increased complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
     <iconPath>UI/Icons/Genes/Gene_MajorCellInstability</iconPath>
     <displayOrderInCategory>120</displayOrderInCategory>
     <biostatCpx>5</biostatCpx>
@@ -140,7 +140,7 @@
     <defName>MoreGeneEfficiencyBasePositive6</defName>
     <label>Efficiency(6)</label>
     <labelShortAdj>Efficiency(6)</labelShortAdj>
-    <description>Carriers of this gene have higher metabolic efficiency in exchange for incrased complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <description>Carriers of this gene have higher metabolic efficiency in exchange for increased complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
     <iconPath>UI/Icons/Genes/Gene_MajorCellInstability</iconPath>
     <displayOrderInCategory>130</displayOrderInCategory>
     <biostatCpx>6</biostatCpx>
@@ -151,7 +151,7 @@
     <defName>MoreGeneEfficiencyBasePositive7</defName>
     <label>Efficiency(7)</label>
     <labelShortAdj>Efficiency(7)</labelShortAdj>
-    <description>Carriers of this gene have higher metabolic efficiency in exchange for incrased complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
+    <description>Carriers of this gene have higher metabolic efficiency in exchange for increased complexity. \n(Note: These genes may cause unbalance gameplay, so choose them wisely.)</description>
     <iconPath>UI/Icons/Genes/Gene_MajorCellInstability</iconPath>
     <displayOrderInCategory>140</displayOrderInCategory>
     <biostatCpx>7</biostatCpx>

@@ -89,9 +89,9 @@
 
   <GeneDef ParentName="GeneMoodBase">
     <defName>MoodSaguine</defName>
-    <label>Saguine</label>
-    <labelShortAdj>Saguine</labelShortAdj>
-    <description>Carriers of this gene have "Saguine" trait.</description>
+    <label>Sanguine</label>
+    <labelShortAdj>Sanguine</labelShortAdj>
+    <description>Carriers of this gene have "Sanguine" trait.</description>
     <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
     <displayOrderInCategory>50</displayOrderInCategory>
     <forcedTraits>
